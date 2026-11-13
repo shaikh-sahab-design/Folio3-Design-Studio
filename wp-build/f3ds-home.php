@@ -186,6 +186,8 @@ function f3_page_home() {
 		f3_c( [ 'grid' => 2, 'grid_t' => 2, 'grid_m' => 1, 'gap' => 24, 'rgap' => 48 ], [
 			f3_work_card( 'mispay', 'MISPAY', 'One payment app for the whole shopping journey', 'UX & UI', 'assets/work/mispay.jpg' ),
 			f3_work_card( 'risely', 'Risely', 'Student growth platform for schools', 'Product design', 'assets/work/risely.jpg', 150 ),
+			f3_work_card( 'genopalate', 'GenoPalate', 'DNA-based nutrition, web experience', 'Web design', 'assets/work/genopalate.jpg' ),
+			f3_work_card( 'scottdale-bachelorette', 'Scottdale Bachelorette', 'Website redesign', 'Web design', 'assets/work/scottdale.jpg', 150 ),
 		] ),
 		f3_button( 'View All Case Studies', f3_url( 'work' ), 'dark', [ 'align' => 'center' ] ),
 	] );

@@ -708,6 +708,1204 @@
      "DEVICE MOCKUPS"
     ]
    ]
+  },
+  "genopalate": {
+   "slug": "genopalate",
+   "title": "GENOPALATE",
+   "tag": "Discover the missing piece to your nutrition",
+   "chip": "Healthcare",
+   "thumb": "assets/work/genopalate.webp",
+   "hero": "assets/case/genopalate-hero.webp",
+   "meta": {
+    "CLIENT": "GENOPALATE",
+    "INDUSTRY": "Digital Health",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "GenoPalate offers personalized nutrition programs tailored to your DNA. Unlock the power of your biology to optimize your wellness with science-backed guidance that reveals your unique nutrient needs and food matches. You can choose to use a saliva-based DNA test or upload existing genetic data for advanced insights. Then, turn your results into action with one-on-one nutrition coaching and personalized vitamins and supplements."
+   ],
+   "problem": {},
+   "process": [
+    [
+     "assets/case/genopalate-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/genopalate-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/genopalate-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/genopalate-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/genopalate-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/genopalate-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/genopalate-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "scottdale-bachelorette": {
+   "slug": "scottdale-bachelorette",
+   "title": "SCOTTDALE BACHELORETTE",
+   "tag": "Your Ultimate Bachelorette Experience Starts Here",
+   "chip": "Entertainment",
+   "thumb": "assets/work/scottdale.webp",
+   "hero": "assets/case/scottdale-bachelorette-hero.webp",
+   "meta": {
+    "CLIENT": "SCOTTDALE BACHELORETTE",
+    "INDUSTRY": "E-commerce",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "Scottsdale is a top-tier bachelorette destination known for its year-round sunny weather, vibrant nightlife in the Old Town Entertainment District, and luxurious pool parties. It offers a perfect mix of desert adventures (hiking Camelback Mountain), relaxing spa days, and trendy dining. Key services like Scottsdale Bachelorette provide pre-arrival, themed home decorations, and itinerary planning."
+   ],
+   "problem": {
+    "Problem Statement": "Scottsdale Bachelorette wanted to elevate its digital presence following a brand rebranding, moving away from an outdated website that lacked modern visuals, engaging interactions, and a seamless user experience. The goal was to create a premium, visually striking website that reflected the brand’s new identity, showcased its experiences through immersive videos and animations, and delivered a polished experience beyond the limitations of generic WordPress layouts.",
+    "Challenges": "The main challenge was to translate the brand’s refreshed identity into a distinctive, high-end digital experience that stood out from competitors. This involved designing custom layouts, integrating engaging animations and video content, refining user journeys, and creating intuitive navigation that made discovering experiences and planning celebrations effortless. The focus was on balancing visual richness with performance and usability to deliver a sleek, memorable, and conversion-focused website."
+   },
+   "process": [
+    [
+     "assets/case/scottdale-bachelorette-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/scottdale-bachelorette-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/scottdale-bachelorette-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/scottdale-bachelorette-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/scottdale-bachelorette-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/scottdale-bachelorette-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/scottdale-bachelorette-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "sala-series": {
+   "slug": "sala-series",
+   "title": "SALA SERIES",
+   "tag": "One solution for all your shopping experience",
+   "chip": "E-commerce",
+   "thumb": "assets/work/sala-series.webp",
+   "hero": "assets/case/sala-series-hero.webp",
+   "meta": {
+    "CLIENT": "SALA SERIES",
+    "INDUSTRY": "Event Management",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "The SALA Series Podcast, hosted by Dalen Cuff and Monica McNutt, brings together purpose-driven leaders across sports, entertainment, corporate, and non-profit sectors to drive positive community change. It focuses on fostering meaningful relationships, featuring diverse voices, and discussing leadership, social impact, and, at times, arts and culture."
+   ],
+   "problem": {
+    "Problem Statement": "Sala Series needed a modern digital presence to showcase its brand, offerings, and unique identity through an engaging website. The goal was to create a memorable online experience that communicates the brand’s value while connecting effectively with its target audience.",
+    "Challenges": "Design a contemporary, visually compelling website with intuitive navigation, a clear content hierarchy, and consistent brand styling. Balance aesthetics with usability to deliver a seamless, responsive experience across desktop, tablet, and mobile devices."
+   },
+   "process": [
+    [
+     "assets/case/sala-series-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/sala-series-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/sala-series-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/sala-series-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/sala-series-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/sala-series-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/sala-series-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "marthas-vineyard": {
+   "slug": "marthas-vineyard",
+   "title": "MARTHA'S VINEYARD",
+   "tag": "One Solution for all your shopping experience",
+   "chip": "E-commerce",
+   "thumb": "assets/work/marthas-vineyard.webp",
+   "hero": "assets/case/marthas-vineyard-hero.webp",
+   "meta": {
+    "CLIENT": "MARTHA'S VINEYARD",
+    "INDUSTRY": "E-commerce",
+    "SERVICES": "Web Design"
+   },
+   "about": [
+    "Martha's Vineyard is a 96-square-mile island off the coast of Massachusetts, renowned as an upscale New England summer colony accessible only by air or ferry. It features iconic harbor towns like Edgartown and Oak Bluffs, sandy beaches, farmland, and a casual, bike-friendly atmosphere. Key attractions include the Gingerbread Cottages, Gay Head Cliffs, and filming locations from the movie Jaws."
+   ],
+   "problem": {
+    "Problem Statement": "Martha’s Vineyard needed a modern, welcoming website to showcase mortgage-related services and guest houses for rent, helping visitors explore property options and find relevant information through a seamless digital experience.",
+    "Challenges": "Design an intuitive, visually appealing website that balances property discovery with clear mortgage information. Create an engaging browsing experience with well-structured content, attractive property showcases, and easy navigation to help users explore rentals and access essential details effortlessly."
+   },
+   "process": [
+    [
+     "assets/case/marthas-vineyard-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/marthas-vineyard-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/marthas-vineyard-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/marthas-vineyard-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/marthas-vineyard-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/marthas-vineyard-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/marthas-vineyard-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "dipgos": {
+   "slug": "dipgos",
+   "title": "DIPGOS",
+   "tag": "",
+   "chip": "SaaS / B2B",
+   "thumb": "assets/work/dipgos.webp",
+   "hero": "assets/case/dipgos-hero.webp",
+   "meta": {
+    "CLIENT": "DIPGOS",
+    "INDUSTRY": "SaaS / B2B",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "Indus Tech is a technology-driven consultancy specializing in delivering cutting-edge digital solutions to the Architecture, Engineering, and Construction (AEC) sector. Recognizing the increasing complexity and scale of modern infrastructure and real estate projects, Indus Tech envisioned a platform that could unify project governance across all lifecycle stages—from planning and design to execution and operations. This led to the creation of DiPGOS (Digital Project Governance Operating System), an AI-powered platform designed to optimize large-scale project management through cognitive automation."
+   ],
+   "problem": {
+    "Problem Statement": "Dipgos needed a unified construction management platform to connect fragmented workflows, project data, and teams across multiple platforms. The goal was to simplify complex construction operations by bringing the entire project lifecycle into one intelligent, connected system.",
+    "Challenges": "Design a scalable, multi-platform web app that manages complex construction workflows, large volumes of project data, and cross-functional collaboration. Create an intuitive interface that connects multiple systems, provides real-time project visibility, and enables teams to make informed decisions efficiently."
+   },
+   "process": [
+    [
+     "assets/case/dipgos-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/dipgos-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/dipgos-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/dipgos-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/dipgos-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/dipgos-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/dipgos-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "naked-wardrobe": {
+   "slug": "naked-wardrobe",
+   "title": "NAKED WARDROBE",
+   "tag": "",
+   "chip": "E-commerce",
+   "thumb": "assets/work/naked-wardrobe.webp",
+   "hero": "assets/case/naked-wardrobe-hero.webp",
+   "meta": {
+    "CLIENT": "NAKED WARDROBE",
+    "INDUSTRY": "E-commerce",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "Naked Wardrobe is a Los Angeles-based, women-owned online fashion brand founded in 2012 by sisters Shirin, Shida, and Shideh Kaviani. It specializes in \"Original Sculpted Streetwear™\" and \"shapewear basics without shapewear,\" designed to enhance curves with compressive technology. The brand is known for affordable, high-quality, form-fitting apparel, including bodysuits and dresses, often worn by celebrities like the Kardashians and Jennifer Lopez."
+   ],
+   "problem": {
+    "Problem Statement": "Naked Wardrobe needed a modern mobile shopping experience that reflects its bold, fashion-forward brand identity while making it easier for customers to discover trending styles and shop effortlessly.",
+    "Challenges": "Design a visually engaging, mobile-first interface with intuitive navigation, streamlined product discovery, and a frictionless checkout journey. Balance premium fashion aesthetics with usability to create a seamless and engaging shopping experience across the app."
+   },
+   "process": [
+    [
+     "assets/case/naked-wardrobe-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/naked-wardrobe-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/naked-wardrobe-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/naked-wardrobe-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/naked-wardrobe-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/naked-wardrobe-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/naked-wardrobe-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "bmc": {
+   "slug": "bmc",
+   "title": "BMC",
+   "tag": "",
+   "chip": "SaaS / B2B",
+   "thumb": "assets/work/bmc.webp",
+   "hero": "assets/case/bmc-hero.webp",
+   "meta": {
+    "CLIENT": "BMC",
+    "INDUSTRY": "SaaS / B2B",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "BMC is primed to accelerate transformation for our customers by connecting and amplifying hybrid IT with the most innovative portfolio of AI-driven infrastructure software."
+   ],
+   "problem": {
+    "Problem Statement": "BMC Software needed an intuitive web application experience to simplify complex enterprise software workflows and make critical business information easier to access. The goal was to improve usability and help users manage enterprise operations more efficiently.",
+    "Challenges": "Design a scalable, data-driven interface that presents complex information, tools, and workflows in a clear, structured way. Balance enterprise-level functionality with intuitive navigation and a consistent user experience across different screens and user needs."
+   },
+   "process": [
+    [
+     "assets/case/bmc-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/bmc-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/bmc-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/bmc-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/bmc-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/bmc-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/bmc-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "land-teller": {
+   "slug": "land-teller",
+   "title": "LAND TELLER",
+   "tag": "",
+   "chip": "Construction",
+   "thumb": "assets/work/land-teller.webp",
+   "hero": "assets/case/land-teller-hero.webp",
+   "meta": {
+    "CLIENT": "LAND TELLER",
+    "INDUSTRY": "Construction",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "LandTeller is a specialized jobsite management software designed for land developers, contractors, and engineers to visualize construction projects on live, geotagged maps. Developed by Koliso Inc., it functions as a smartphone-first solution to bridge the gap between digital site plans and on-the-ground work."
+   ],
+   "problem": {
+    "Problem Statement": "Land aur on-site project management mein accurate spatial data aur work status ko manually track karna kafi mushkil hota hai, jis se team communication slow hoti hai aur reporting mein ghaltiyan aati hain. Real-time location-based updates aur instant assistance na hone ki wajah se site operations mein delays aur coordination issues paida hote hain.",
+    "Challenges": "Complex georegistered site plans aur geotagged work tickets ko intuitive web app interface mein bina visual clutter ke seamlessly organize karna ek bada challenge tha. Iske sath sath ek interactive chatbot ko integrate karke field workers aur managers dono ke liye real-time data access aur navigation ko asaan banana zaroori tha."
+   },
+   "process": [
+    [
+     "assets/case/land-teller-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/land-teller-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/land-teller-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/land-teller-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/land-teller-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/land-teller-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/land-teller-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "wood-mizer": {
+   "slug": "wood-mizer",
+   "title": "WOOD-MIZER",
+   "tag": "",
+   "chip": "E-commerce",
+   "thumb": "assets/work/wood-mizer.webp",
+   "hero": "assets/case/wood-mizer-hero.webp",
+   "meta": {
+    "CLIENT": "WOOD-MIZER",
+    "INDUSTRY": "E-commerce",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "At Wood-Mizer, everything we do is about the wood life. We know that every log represents more than a hobby or a job, more than an orange machine. It's about a positive influence on everyone who wants to do good with wood. It's a way of life. And we can't wait to live it with you."
+   ],
+   "problem": {
+    "Problem Statement": "Wood-Mizer needed a modern, user-friendly website to showcase its wood processing machinery, equipment, and solutions while helping customers easily find the right products for their needs.",
+    "Challenges": "Design a clear, product-focused experience that organizes a wide range of machinery and technical information into intuitive navigation. Balance industrial functionality with a professional visual design to improve product discovery, accessibility, and customer engagement across devices."
+   },
+   "process": [
+    [
+     "assets/case/wood-mizer-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/wood-mizer-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/wood-mizer-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/wood-mizer-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/wood-mizer-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/wood-mizer-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/wood-mizer-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "ingenius": {
+   "slug": "ingenius",
+   "title": "INGENIUS",
+   "tag": "",
+   "chip": "SaaS / B2B",
+   "thumb": "assets/work/ingenius.webp",
+   "hero": "assets/case/ingenius-hero.webp",
+   "meta": {
+    "CLIENT": "INGENIUS",
+    "INDUSTRY": "EdTech",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "InGenius offers college application counseling that is personalized to guarantee college admission success. It is a counseling and group-based classes service led by former college admissions officers to help students find a path to success in whatever fields they choose. InGenius are Former Admissions Officers from the most competitive schools. They are writers and editors from top graduate programs. They are professors, researchers, and scholars from U.S. universities. They are teaching fellows from Ivy League institutions. Together, they are your admissions team."
+   ],
+   "problem": {
+    "Problem Statement": "InGenius needed a user-friendly web app to simplify the college admissions journey by connecting students with expert counselors, personalized guidance, and group-based learning. The goal was to make the application process more structured, accessible, and less overwhelming.",
+    "Challenges": "Design an intuitive platform that organizes counseling services, learning sessions, and admissions resources into a seamless experience. Build trust through a professional interface while making it easy for students to navigate their journey, access expert support, and track their progress."
+   },
+   "process": [
+    [
+     "assets/case/ingenius-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/ingenius-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/ingenius-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/ingenius-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/ingenius-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/ingenius-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/ingenius-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "va-navigator": {
+   "slug": "va-navigator",
+   "title": "VA Navigator",
+   "tag": "One Solution for all VA Disability benefits Your Deserve",
+   "chip": "Healthcare",
+   "thumb": "assets/work/va-navigator.webp",
+   "hero": "assets/case/va-navigator-hero.webp",
+   "meta": {
+    "CLIENT": "VA Navigator",
+    "INDUSTRY": "Healthcare",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "VA Navigator helps Veterans find their way around VA medical centers. The app sets the nearest facility as their default, offers a searchable directory of clinics, pharmacies and amenities, and gives step-by-step indoor directions. It also remembers where they parked, links to travel claims, appointments and MyHealtheVet, and keeps the Veterans Crisis Line one tap away."
+   ],
+   "problem": {
+    "Problem Statement": "Large VA campuses span dozens of buildings and floors, and Veterans often arrive stressed, short on time or unfamiliar with the site. Signage alone leaves many lost between parking, check-in and their clinic.",
+    "Challenges": "Designing for a wide range of ages and abilities, working with or without location access, showing multi-building indoor routes clearly on a small screen, and keeping urgent help visible without adding clutter."
+   },
+   "process": [
+    [
+     "assets/case/va-navigator-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/va-navigator-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/va-navigator-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/va-navigator-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/va-navigator-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/va-navigator-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/va-navigator-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "summit-k12": {
+   "slug": "summit-k12",
+   "title": "Summit K12",
+   "tag": "Literacy, science and curriculum",
+   "chip": "Education",
+   "thumb": "assets/work/summit-k12.webp",
+   "hero": "assets/case/summit-k12-hero.webp",
+   "meta": {
+    "CLIENT": "Summit K12",
+    "INDUSTRY": "EdTech",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "Summit K12 is a web-based educational platform providing interactive, standards-aligned supplemental curriculum across Science, Reading, and Social Studies. Designed for both classroom and remote learning, the platform accelerates growth for English learners and struggling students through mastery-based learning pathways, engaging video activities, and real-time progress tracking to ensure success on state assessments."
+   ],
+   "problem": {
+    "Problem Statement": "SummitK12 supports K-12 teachers and students, but it doesn’t work like a modern LMS. Fragmented products and inconsistent navigation make it hard to find, assign and review work, and hard to scale across assessment products.",
+    "Challenges": "Products with different scoring models and terminology feel disconnected, and navigation between courses and content isn’t predictable. Without a shared design system, teachers spend more effort finding content and reading student progress than they should."
+   },
+   "process": [
+    [
+     "assets/case/summit-k12-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/summit-k12-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/summit-k12-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/summit-k12-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/summit-k12-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/summit-k12-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/summit-k12-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "cattlytics": {
+   "slug": "cattlytics",
+   "title": "Cattlytics",
+   "tag": "Manage livestock Farm effortlessly",
+   "chip": "AgriTech",
+   "thumb": "assets/work/cattlytics.webp",
+   "hero": "assets/case/cattlytics-hero.webp",
+   "meta": {
+    "CLIENT": "Cattlytics",
+    "INDUSTRY": "AgTech",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "Cattlytics is an all-in-one farm and livestock management platform built to streamline operations for beef, dairy, and livestock producers. The platform connects herd health tracking, breeding cycles, task management, and financial reporting into a single system, helping farmers and enterprise agribusinesses make data-driven decisions from birth to market."
+   ],
+   "problem": {
+    "Problem Statement": "Ranchers and dairy operators face major inefficiencies trying to manage large herds using legacy paper records or clunky, single-purpose tools. Without real-time visibility into herd metrics, health withdrawal periods, and feed efficiency, farm teams struggle to make timely, data-backed decisions.",
+    "Challenges": "Designing a scalable digital workspace capable of organizing vast amounts of agricultural data into clear, actionable dashboards. The system needed to support diverse agricultural workflows—from quick field entry on tablet screens to complex reporting and ERP integrations on desktop—while keeping daily task management straightforward for all skill levels."
+   },
+   "process": [
+    [
+     "assets/case/cattlytics-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/cattlytics-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/cattlytics-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/cattlytics-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/cattlytics-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/cattlytics-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/cattlytics-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "artonista": {
+   "slug": "artonista",
+   "title": "Artonista",
+   "tag": "Curated art for beautifully designed spaces",
+   "chip": "E-commerce",
+   "thumb": "assets/work/artonista.webp",
+   "hero": "assets/case/artonista-hero.webp",
+   "meta": {
+    "CLIENT": "Artonista",
+    "INDUSTRY": "E-commerce",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "Artonista is a direct-to-consumer online store for archival fine art prints with custom framing. It builds on more than 20 years of trade publishing through Mercurius Art Publishing. We designed the full e-commerce experience on a shared design system, from discovery and gallery walls through to checkout and support pages."
+   ],
+   "problem": {
+    "Problem Statement": "Buying art online is hard. Shoppers can’t easily judge scale, framing or fit, so they settle for generic décor. Artonista needed a store that makes quality art feel approachable and conveys its heritage and craftsmanship.",
+    "Challenges": "We had to turn a B2B legacy into a warm consumer brand and feel premium yet accessible. We also had to build buyer confidence in a product people can’t touch, support several ways to shop, and keep long-form and policy content readable within a restrained editorial look."
+   },
+   "process": [
+    [
+     "assets/case/artonista-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/artonista-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/artonista-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/artonista-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/artonista-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/artonista-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/artonista-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "bk-racing": {
+   "slug": "bk-racing",
+   "title": "BK Racing",
+   "tag": "One stop for all Your Racing Gears",
+   "chip": "Automotive",
+   "thumb": "assets/work/bk-racing.webp",
+   "hero": "assets/case/bk-racing-hero.webp",
+   "meta": {
+    "CLIENT": "BK Racing",
+    "INDUSTRY": "E-commerce",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "BK Racing is a specialized motorsport performance brand engineering bulletproof powertrain and chassis components for GM Ecotec engines and circle track racing. Built by racers for racers, the platform offers track-proven engine builds, valvetrain upgrades, custom Dickinson roll cages, and technical guides that give drivers the reliability and performance needed to win on race day."
+   ],
+   "problem": {
+    "Problem Statement": "BK Racing’s original website struggled to support its expanding catalog of specialized racing components and technical guides. Drivers and mechanics found it difficult to locate specific engine parts, verify fitment, and navigate technical resources, leading to catalog friction and missed sales opportunities during high-intent purchases.",
+    "Challenges": "The core design challenge was restructuring a deep, technical product catalog into a clear, intuitive navigation system that helps racers quickly find compatible GM Ecotec parts and installation guides without overwhelming them with dense automotive specifications."
+   },
+   "process": [
+    [
+     "assets/case/bk-racing-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/bk-racing-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/bk-racing-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/bk-racing-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/bk-racing-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/bk-racing-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/bk-racing-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "peplepet-matchwear": {
+   "slug": "peplepet-matchwear",
+   "title": "Peplepet Matchwear",
+   "tag": "Turn Your Ideas Into Matching Memories",
+   "chip": "E-commerce",
+   "thumb": "assets/work/peplepet-matchwear.webp",
+   "hero": "assets/case/peplepet-matchwear-hero.webp",
+   "meta": {
+    "CLIENT": "Peplepet Matchwear",
+    "INDUSTRY": "E-commerce",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "PeeplePet Matchwear is a custom apparel brand built around matching outfits for the whole family, pets included. Customers design tees and hoodies for themselves, their children and their dogs, preview them, and order the full set in one place. A separate kids’ studio lets children design on their own."
+   ],
+   "problem": {
+    "Problem Statement": "E-commerce customizers are designed for single-item shoppers. PeeplePet needed to serve complex family orders involving non-readers (kids) and non-standard fits (pets). Without visual reassurance, users struggled to envision how disparate garments would look together, driving drop-off.",
+    "Challenges": "The core design challenge was balancing two distinct experiences: a streamlined interface for adults and a playful, accessible studio for young children. At the same time, artwork needed to translate consistently across vastly different adult, child, and pet garment sizes. Additionally, the homepage required a visual, low-copy approach that still built strong buyer confidence, ensuring families could easily visualize their complete matching sets before placing an order."
+   },
+   "process": [
+    [
+     "assets/case/peplepet-matchwear-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/peplepet-matchwear-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/peplepet-matchwear-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/peplepet-matchwear-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/peplepet-matchwear-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/peplepet-matchwear-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/peplepet-matchwear-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "cargil": {
+   "slug": "cargil",
+   "title": "Cargil",
+   "tag": "Creating A More Food Secure World",
+   "chip": "SaaS / B2B",
+   "thumb": "assets/work/cargil.webp",
+   "hero": "assets/case/cargil-hero.webp",
+   "meta": {
+    "CLIENT": "Cargil",
+    "INDUSTRY": "AgTech",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "Cargill Dairy Enteligen is a data-driven dairy farm management platform designed to help farmers make smarter, more informed decisions. By combining herd performance, animal health, nutrition, and farm management data into one integrated system, it provides actionable insights to improve productivity and operational efficiency. The platform helps dairy producers identify growth opportunities, optimize farm practices, and make informed decisions that support long-term profitability."
+   ],
+   "problem": {
+    "Problem Statement": "The existing Cargill Dairy Enteligen web app was built on Power BI, which limited flexibility in data visualization, report customization, and layout structures. Users faced challenges navigating multiple workflows and accessing insights efficiently. The goal was to redesign the experience from the ground up with a fully custom UI, bringing multiple workflows into one unified application while improving usability, data accessibility, and overall efficiency.",
+    "Challenges": ""
+   },
+   "process": [
+    [
+     "assets/case/cargil-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/cargil-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/cargil-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/cargil-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/cargil-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/cargil-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/cargil-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "imprint-live": {
+   "slug": "imprint-live",
+   "title": "Imprint.live",
+   "tag": "Help Your Teen Build Digital Confidence.",
+   "chip": "Education",
+   "thumb": "assets/work/imprint-live.webp",
+   "hero": "assets/case/imprint-live-hero.webp",
+   "meta": {
+    "CLIENT": "Imprint.live",
+    "INDUSTRY": "AI/ML",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "Imprint.live is a values-driven social networking platform designed to make online interactions more meaningful and impactful. It enables users to share their views on important social issues, connect through shared values, and contribute to causes that matter to them. By combining community engagement with a purpose-led approach, Imprint aims to create a safer, more respectful digital space where everyday online activity can inspire positive change."
+   ],
+   "problem": {
+    "Problem Statement": "Imprint.live needed a visual refresh of its website to create a more modern, engaging, and professional digital presence. The existing website required improvements to its landing page and selected inner pages to better communicate the platform’s value, present information clearly, and create a stronger first impression while retaining its core content and purpose.",
+    "Challenges": "The main challenge was to redesign the landing page and key inner pages with a consistent visual identity and improved user experience. This involved refining the layout structure, typography, visual hierarchy, content presentation, and navigation to make the website more intuitive and visually appealing. The goal was to deliver a fresh, cohesive design that improves readability, guides visitors through the content, and strengthens the overall website experience."
+   },
+   "process": [
+    [
+     "assets/case/imprint-live-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/imprint-live-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/imprint-live-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/imprint-live-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/imprint-live-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/imprint-live-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/imprint-live-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "game-golf": {
+   "slug": "game-golf",
+   "title": "Game Golf",
+   "tag": "Know More. Play Smarter.",
+   "chip": "Sports",
+   "thumb": "assets/work/game-golf.webp",
+   "hero": "assets/case/game-golf-hero.webp",
+   "meta": {
+    "CLIENT": "Game Golf",
+    "INDUSTRY": "Sports",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "GameGolf KZN is a connected golf system where sensors on all 14 clubs record every shot automatically. This project redesigned the companion app, covering setup, the in-round course view, and the player’s bag and profile, to make it as effortless as the hardware."
+   ],
+   "problem": {
+    "Problem Statement": "The brand promises golfers they can “play with absolute confidence,” but the app fell short. Complex setup, crowded screens, and confusing navigation pulled attention away from the game and onto the app.",
+    "Challenges": "Pairing 14 sensors made onboarding long and unclear, and screens were cluttered with every metric at once. Navigation didn’t match how golfers think about a round. Everything also had to work at a glance, outdoors, between shots."
+   },
+   "process": [
+    [
+     "assets/case/game-golf-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/game-golf-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/game-golf-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/game-golf-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/game-golf-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/game-golf-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/game-golf-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "hifonix": {
+   "slug": "hifonix",
+   "title": "Hifonix",
+   "tag": "Artisan Audio & Head-Fi",
+   "chip": "E-commerce",
+   "thumb": "assets/work/hifonix.webp",
+   "hero": "assets/case/hifonix-hero.webp",
+   "meta": {
+    "CLIENT": "Hifonix",
+    "INDUSTRY": "E-commerce",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "When you live for music Welcome to Hifonix. With nearly 20 years of hi-fi experience, we provide expert guidance and premium sound for every listener. Our love for exceptional sound has driven us for almost two decades. Ten years ago, we decided to turn this passion into a reality by opening Hifonix. Our store is more then just a place to buy gear; it's a heaven for music lover who appreciate the art and science of great sound."
+   ],
+   "problem": {
+    "Problem Statement": "Hifonix needed a distinctive digital presence that reflects its passion for artisan audio, premium Hi-Fi, and Head-Fi experiences. The goal was to create a modern luxury website that communicates the brand’s expertise while making high-end audio feel immersive and approachable.",
+    "Challenges": "Design a sophisticated, visually immersive website that balances luxury aesthetics with intuitive navigation and engaging interactions. Showcase premium audio products through refined layouts, rich visuals, and a seamless user experience that captures the craftsmanship and emotion of exceptional sound."
+   },
+   "process": [
+    [
+     "assets/case/hifonix-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/hifonix-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/hifonix-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/hifonix-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/hifonix-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/hifonix-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/hifonix-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "ai-guardian": {
+   "slug": "ai-guardian",
+   "title": "AI Guardian",
+   "tag": "AI Governance Software",
+   "chip": "AI/ML",
+   "thumb": "assets/work/ai-guardian.webp",
+   "hero": "assets/case/ai-guardian-hero.webp",
+   "meta": {
+    "CLIENT": "AI Guardian",
+    "INDUSTRY": "AI/ML",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "AI Guardian is AI governance software that gives every employee one approved path to AI, while every prompt, document, agent, model, and business action passes through the same identity, policy, security, cost, and audit controls. Deploy the AI governance platform in your own cloud, connect Teams, Slack, web, and mobile, and govern AI usage in days."
+   ],
+   "problem": {
+    "Problem Statement": "Organizations need a reliable way to identify AI risks, ensure compliance, and maintain control as they scale AI adoption. AI Guardian needed a clear, intuitive web app experience to make AI governance and security easier to understand and manage.",
+    "Challenges": "Design a user-friendly interface that simplifies complex AI risk and compliance workflows while presenting critical insights clearly. Create a scalable, professional dashboard experience that helps organizations monitor risks, improve visibility, and adopt AI with confidence."
+   },
+   "process": [
+    [
+     "assets/case/ai-guardian-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/ai-guardian-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/ai-guardian-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/ai-guardian-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/ai-guardian-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/ai-guardian-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/ai-guardian-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "redsky-lighting": {
+   "slug": "redsky-lighting",
+   "title": "RedSky Lighting",
+   "tag": "",
+   "chip": "E-commerce",
+   "thumb": "assets/work/redsky-lighting.webp",
+   "hero": "assets/case/redsky-lighting-hero.webp",
+   "meta": {
+    "CLIENT": "RedSky Lighting",
+    "INDUSTRY": "E-commerce",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "There are places in the world where a light is not just a light. On offshore rigs, inside LNG terminals, across metal processing floors and marine vessels — light is the difference between safety and catastrophe. That is the world Red Sky Lighting was built for.",
+    "Since 2017, Red Sky has designed and engineered premium, durable LED lighting solutions for the most demanding harsh and hazardous environments on the planet. Based in California, we now serve clients across four continents. Every certification we hold, we've earned — through rigorous testing, careful material selection, and a refusal to cut corners. We don't just ship products. We ship trust."
+   ],
+   "problem": {
+    "Problem Statement": "The existing website needed a modern, professional experience that clearly communicated RedSky Lightening’s services and value proposition. The challenge was to improve content clarity, visual appeal, and navigation while building trust with potential customers.",
+    "Challenges": "Revamp the website with a clean, engaging UI, intuitive navigation, and a clear content hierarchy. Present complex service offerings in an accessible way while ensuring a consistent brand identity and a seamless, responsive experience across all devices."
+   },
+   "process": [
+    [
+     "assets/case/redsky-lighting-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/redsky-lighting-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/redsky-lighting-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/redsky-lighting-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/redsky-lighting-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/redsky-lighting-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/redsky-lighting-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "dna-health": {
+   "slug": "dna-health",
+   "title": "DNA Health",
+   "tag": "",
+   "chip": "Healthcare",
+   "thumb": "assets/work/dna-health.webp",
+   "hero": "assets/case/dna-health-hero.webp",
+   "meta": {
+    "CLIENT": "DNA Health",
+    "INDUSTRY": "Digital Health",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "DNA Health is a personalised health platform that turns complex lab results into clear reports and health plans. It serves both patients and clinicians. It pairs a practitioner portal for doctors and nurses with a patient mobile app that brings lab results, wearable data and personalised health plans together in one place."
+   ],
+   "problem": {
+    "Problem Statement": "Patient health data is scattered across EMR records, lab reports, wearables and body scans, and it’s written in clinical language patients can’t easily understand. Doctors needed one secure workflow to review and approve insights, and patients needed a simple way to understand their results and follow their plan.",
+    "Challenges": "Large volumes of biomarker, food intolerance and body-composition data had to become clear, accurate and patient-friendly views. At the same time, the platform had to enforce role-based access across six user types, and route automated EMR data, OCR extraction and AI insights through doctor approval before anything reached patients."
+   },
+   "process": [
+    [
+     "assets/case/dna-health-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/dna-health-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/dna-health-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/dna-health-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/dna-health-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/dna-health-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/dna-health-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "phi": {
+   "slug": "phi",
+   "title": "Phi",
+   "tag": "Helping Humanity Thrive",
+   "chip": "Healthcare",
+   "thumb": "assets/work/phi.webp",
+   "hero": "assets/case/phi-hero.webp",
+   "meta": {
+    "CLIENT": "Phi",
+    "INDUSTRY": "AI/ML",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "Phi is a values-driven social networking platform designed to create a safer, more mindful, and inclusive online experience. It empowers teenagers and adults to share their thoughts, connect over meaningful issues, and engage with a community that values authenticity and respect. With proactive content moderation before posts go live, Phi aims to reduce harmful interactions and encourage more positive, purposeful digital engagement."
+   ],
+   "problem": {
+    "Problem Statement": "PHI had an existing digital platform with an established structure and functionality, but the user experience was falling short of expectations. Several user flows had been developed without proper UI design, resulting in inconsistencies across the interface. The client needed a complete visual revamp that would improve usability and create a more polished, intuitive experience while preserving the existing structure and core functionality.",
+    "Challenges": "The primary challenge was to modernize the platform without disrupting its established user flows or changing its core functionality. This involved refining the user experience, improving navigation and interaction patterns, establishing consistent typography and visual hierarchy, and bringing previously underdesigned flows into a cohesive design system. The goal was to deliver a fresh, contemporary look while maintaining familiarity for existing users."
+   },
+   "process": [
+    [
+     "assets/case/phi-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/phi-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/phi-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/phi-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/phi-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/phi-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/phi-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
   }
  }
 }

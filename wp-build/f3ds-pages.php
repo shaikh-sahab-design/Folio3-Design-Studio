@@ -181,7 +181,7 @@ function f3_case_card( $c, $delay = 0 ) {
 	return f3_c( [ 'gap' => 18, 'link' => $post ? get_permalink( $post ) : f3_url( 'work' ), 'class' => 'f3-workcard', 'anim' => 'fadeInUp', 'delay' => $delay ], [
 		f3_c( [ 'radius' => 8, 'overflow' => 'hidden' ], [ f3_image( f3_img( $c['thumb'] ), [ 'class' => 'f3-cover', 'h' => 460, 'h_m' => 260 ] ) ] ),
 		f3_c( [ 'dir' => 'row', 'dir_m' => 'row', 'justify' => 'space-between', 'align' => 'flex-start', 'gap' => 16 ], [
-			f3_c( [ 'gap' => 6 ], [ f3_heading( $c['title'], 'h3', [ 28, 24, 22 ], [ 'ls' => -0.03 ] ), f3_text( $c['tag'], [ 'sizes' => [ 15 ] ] ) ] ),
+			f3_c( [ 'gap' => 6 ], [ f3_heading( $c['title'], 'h3', [ 28, 24, 22 ], [ 'ls' => -0.03 ] ), '' !== trim( $c['tag'] ) ? f3_text( $c['tag'], [ 'sizes' => [ 15 ] ] ) : null ] ),
 			f3_chips( [ $c['chip'] ] ),
 		] ),
 	] );
@@ -190,7 +190,7 @@ function f3_case_card( $c, $delay = 0 ) {
 function f3_page_work() {
 	$cases = f3_data()['cases'];
 	$cards = []; $i = 0;
-	foreach ( $cases as $c ) { $cards[] = f3_case_card( $c, $i++ * 150 ); }
+	foreach ( $cases as $c ) { $cards[] = f3_case_card( $c, ( $i++ % 2 ) * 120 ); }
 	return [
 		f3_header(),
 		f3_section( [ 'y' => 72, 'yb' => 64, 'gap' => 32 ], [
@@ -228,7 +228,7 @@ function f3_page_case( $slug ) {
 		f3_eyebrow( 'Work / ' . $c['title'] ),
 		f3_heading( $c['title'], 'h1', [ 150, 104, 60 ], [ 'weight' => '800', 'lh' => 0.9, 'ls' => -0.06, 'anim' => 'fadeInUp' ] ),
 		f3_c( [ 'dir' => 'row', 'justify' => 'space-between', 'align' => 'center', 'gap' => 24, 'align_m' => 'flex-start' ], [
-			f3_lead( $c['tag'] ),
+			'' !== trim( $c['tag'] ) ? f3_lead( $c['tag'] ) : null,
 			f3_button( "Let's Collaborate", f3_url( 'contact' ), 'dark' ),
 		] ),
 		f3_c( [ 'grid' => 3, 'grid_t' => 3, 'grid_m' => 1, 'gap' => 24, 'pad' => [ 24, 0, 0, 0 ], 'border' => F3_LINE, 'border_w' => [ 1, 0, 0, 0 ] ], $meta ),
@@ -250,24 +250,26 @@ function f3_page_case( $slug ) {
 		if ( '' === trim( $p ) ) { continue; }
 		$probs[] = f3_icon_box( '', $h, $p, [ 'icon' => 'none', 'title_sizes' => [ 32, 28, 24 ], 'anim' => 'fadeInUp' ] );
 	}
-	$E[] = f3_section( [ 'y' => 80, 'gap' => 0 ], [
+	$n = 2;
+	if ( $probs ) { $E[] = f3_section( [ 'y' => 80, 'gap' => 0 ], [
 		f3_c( [ 'dir' => 'row', 'gap' => 40 ], [
-			$chapter( 2, 'Problem statement' ),
+			$chapter( $n++, 'Problem statement' ),
 			f3_c( [ 'width' => 70, 'grid' => count( $probs ) > 1 ? 2 : 1, 'grid_t' => 1, 'grid_m' => 1, 'gap' => 40 ], $probs ),
 		] ),
-	] );
+	] ); }
 
 	$imgs = [];
 	foreach ( $c['process'] as $p ) {
 		$imgs[] = f3_image( f3_img( $p[0] ), [ 'class' => 'f3-process-img', 'caption' => $p[1], 'anim' => 'fadeInUp', 'alt' => $c['title'] . ' ' . strtolower( $p[1] ) ] );
 	}
 	$E[] = f3_section( [ 'y' => 80, 'gap' => 48 ], [
-		$chapter( 3, 'Our process' ),
+		$chapter( $n, 'Our process' ),
 		f3_c( [ 'gap' => 56 ], $imgs ),
 	] );
 
 	$others = [];
-	foreach ( $all as $s => $o ) { if ( $s !== $slug ) { $others[] = f3_case_card( $o ); } }
+	$keys = array_keys( $all ); $pos = array_search( $slug, $keys, true );
+	for ( $k = 1; $k <= 2; $k++ ) { $others[] = f3_case_card( $all[ $keys[ ( $pos + $k ) % count( $keys ) ] ], ( $k - 1 ) * 120 ); }
 	$E[] = f3_section( [ 'y' => 80, 'gap' => 48 ], [
 		f3_c( [ 'dir' => 'row', 'dir_m' => 'row', 'justify' => 'space-between', 'align' => 'flex-end', 'gap' => 24 ], [
 			f3_heading( 'Browse Other Projects', 'h2', [ 56, 44, 32 ] ),
