@@ -1,0 +1,713 @@
+{
+ "services": {
+  "ux-and-product-design": {
+   "slug": "ux-and-product-design",
+   "img": "ux",
+   "eyebrow": "SERVICES · UX & PRODUCT DESIGN",
+   "h1": "UX & Product Design that's human-led, AI-accelerated, and built around your business goals.",
+   "lead": "Seamless, intuitive, scalable product experiences — researched, designed, and validated faster than traditional studios can, without cutting the thinking.",
+   "svc_h2": "What We Do",
+   "svc_intro": "From research to final handoff, every stage is crafted with precision and purpose — with AI doing the heavy lifting so our designers can spend their time on judgement, not busywork.",
+   "svc": [
+    {
+     "title": "User Research & Strategy",
+     "desc": "We uncover user behaviours, needs, and friction points, then turn them into design decisions. AI helps us synthesise interviews, reviews, and analytics in hours instead of weeks, so insights arrive while they still matter.",
+     "items": [
+      "User Personas & Journey Mapping",
+      "AI-Assisted Research Synthesis & Sentiment Analysis",
+      "UX Audits & Heuristic Evaluations",
+      "Information Architecture",
+      "Use Case & Flow Prioritisation"
+     ]
+    },
+    {
+     "title": "Wireframing & Prototyping",
+     "desc": "Product structure is defined through clear wireframes and interactive prototypes. AI lets us generate and compare multiple flow directions early, then validate the strongest one with real users before visual design begins.",
+     "items": [
+      "User Flows & Sitemaps",
+      "AI-Generated Layout Explorations",
+      "Low/Mid-Fidelity Wireframes",
+      "Interactive Prototypes",
+      "Rapid Testing & Iteration"
+     ]
+    },
+    {
+     "title": "UX and UI",
+     "desc": "We turn a solid UX foundation into refined, high-impact interfaces. AI accelerates variant exploration, copy, and imagery; our designers make the calls on hierarchy, brand, and feel.",
+     "items": [
+      "High-Fidelity UI Screens",
+      "Design System Components",
+      "AI-Assisted UX Copy & Content Design",
+      "Accessibility Considerations (WCAG)",
+      "Responsive & Scalable Layouts",
+      "Motion & Micro-Interactions"
+     ]
+    },
+    {
+     "title": "Design Systems & Handoff",
+     "desc": "We build scalable, component-driven systems for consistency across every touchpoint. AI audits the library for drift and generates documentation and code-ready specs, so what we hand over is accurate and complete.",
+     "items": [
+      "Figma Component Libraries",
+      "Style Guides & Tokens",
+      "Automated Consistency Audits",
+      "Dev-Ready Assets & AI-Generated Specs",
+      "Annotated Handoff Files",
+      "Cross-Team Collaboration Support"
+     ]
+    }
+   ],
+   "band": {
+    "h2": "Human judgement. AI speed.",
+    "intro": "AI doesn't design your product — our people do. But it removes the slow, repetitive parts of the process, which means faster delivery, fewer errors, and more time spent on the decisions that actually move your metrics.",
+    "items": [
+     [
+      "Discover More. Move Faster.",
+      "AI synthesises interviews, support tickets, reviews, and analytics into patterns. Designers validate them against context AI can't see — your business, your market, your constraints."
+     ],
+     [
+      "Explore Beyond the Expected",
+      "Instead of two or three concepts, we generate and pressure-test dozens. The best ideas surface earlier, and dead ends cost hours instead of sprints."
+     ],
+     [
+      "Design with precision",
+      "AI checks accessibility, spacing, naming, and component consistency as we work. Every screen ships cleaner, and reviews focus on experience instead of hunting for inconsistencies."
+     ],
+     [
+      "Ship without rework",
+      "Developers get accurate specs, documentation, and tokens generated straight from the source of truth. Fewer handoff questions, fewer implementation mismatches."
+     ]
+    ],
+    "note": "Your data stays yours. We use AI tools under strict access controls and never train models on client material."
+   },
+   "state": "Whether you're building trust, boosting engagement, or reducing churn — it all starts with the experience. Now we get there faster.",
+   "q_h2": "Words from the People We Design For",
+   "q_intro": "We’ve been lucky to work with visionary brands and brilliant people — here’s what they have to say about building with us",
+   "quotes": [
+    {
+     "img": "assets/testimonials/woodmizer.webp",
+     "brand": "Wood-Mizer",
+     "quote": "I love it! Many thanks to your team for getting us here. It was a fun & adventurous journey for me & I appreciate all the creative ideas & work put in to get us to this final product.",
+     "name": "Janine Axsom",
+     "job": "Creative Director | Marketing"
+    },
+    {
+     "img": "assets/testimonials/summitk12.webp",
+     "brand": "Summit K12",
+     "quote": "We just wanted to say thank you for you and your team's work in the designs this week. We shared the Summit 360 and Prek-1 designs this morning with the team and the LOVED both! Our team was blown away by the depth and detail of the mock ups your team provided and everyone we showed them to was impressed and eager to see more!",
+     "name": "Jack Kresky",
+     "job": "Senior Product Lead"
+    },
+    {
+     "img": "assets/testimonials/imprintlive.webp",
+     "brand": "Imprint.live",
+     "quote": "We'd like to take this opportunity to extend our heartfelt thanks to the entire Imprint team at Folio3 for their dedication & hard work on the Imprint.live project. Your team's commitment has helped us create something very special, innovative, impactful, & full of potential. Being shortlisted for the Tech Awards 2025 stands as a true testament to the team's endeavour in delivering on our vision.",
+     "name": "Andrew & Harleen",
+     "job": "Imprint.live"
+    },
+    {
+     "img": "assets/testimonials/genopalate.webp",
+     "brand": "GenoPalate",
+     "quote": "Now that we're live on all our platforms, I want to take a moment to thank you for the incredible effort you put into bringing our rebrand to life! This was no small project & we know it came with changing requirements, evolving scope & shifting timelines. Your flexibility & commitment ensured we not only hit our goal date but did so without hiccups. That is a huge accomplishment. We are excited to keep building alongside Folio3. We want to thank you again for being such an important partner in our journey. We could not have done it without you!",
+     "name": "Hannah Pekarek",
+     "job": "Product Manager"
+    },
+    {
+     "img": "assets/testimonials/salaseries.webp",
+     "brand": "SALA Series",
+     "quote": "There is a great working relationship with the team that only continues to improve. The familiarity, expectations & processes for both parties continue to be better understood by each other helping create a more efficient workstream & product that accomplishes our varied objectives. The team works promptly & there is a healthy direct dialogue that has allowed us to prioritize & set expectations appropriately. We strongly value the perspective & opinions of the Folio3 team & are motivated & excited about what opportunities are ahead.",
+     "name": "Jimmy Craft",
+     "job": "Co-Founder, SALA Series & Partner, Foxrock Partners"
+    },
+    {
+     "img": "assets/testimonials/clinicalpad.webp",
+     "brand": "ClinicalPad",
+     "quote": "We want to share our utmost gratitude to you & everyone who has been part of bringing ClinicalPad to the live environment. Given that a platform will always have its share of issues throughout its journey, what impresses us most is how you & the team have dealt with delivering a premium product with minimal issues & the willingness to fix these issues promptly.",
+     "name": "Amri Shafeek",
+     "job": "Co-founder, CEO"
+    },
+    {
+     "img": "assets/testimonials/landteller.webp",
+     "brand": "LandTeller",
+     "quote": "We are extremely satisfied with the Folio3 team & the dedicated efforts they have put into this project. We want to take this opportunity to thank you for your hard work & commitment. Despite the challenges of this complex project & our anticipation of potential delays, the process went relatively smoothly. We look forward to continuing our product development journey with this exceptional team.",
+     "name": "Rachel Li & Ron Koo",
+     "job": "CEO & Co-Founder"
+    },
+    {
+     "img": "assets/testimonials/sb.webp",
+     "brand": "Scottsdale Bachelorette",
+     "quote": "The entire Folio3 team has far exceeded my expectations with the service they ve provided in redesigning my website. Not only are they incredibly skilled in the design & technical work that they do, but each team member has been kind & professional every step of the way. They've made me feel like I am their only client & have been so responsive, proactive & accommodating in ensuring the experience for our customers is best-in-class.",
+     "name": "Casey Hohman",
+     "job": "CEO"
+    }
+   ],
+   "ben_h2": "We make it move. You make it matter.",
+   "ben_intro": "From startups to industry icons — we turn visions into interactive realities.",
+   "benefits": [
+    [
+     "Reduce Drop-Offs",
+     "Streamlined experiences reduce friction and keep users moving."
+    ],
+    [
+     "Boost Conversions",
+     "Better design = better outcomes. Whether it's signups, checkouts, or inquiries — we design flows that convert."
+    ],
+    [
+     "Shorten Onboarding Time",
+     "Clarity at every step helps users get value faster. We simplify complex journeys into easy, confident first sessions."
+    ],
+    [
+     "Strengthen Product Clarity",
+     "We turn messy, confusing interfaces into intuitive ones — so users always know what to do next."
+    ],
+    [
+     "Scale Without Breaking UX",
+     "Our systems-based approach, backed by AI consistency checks, keeps your product coherent as it grows across features, teams, and devices."
+    ],
+    [
+     "Increase Perceived Value",
+     "People judge with their eyes. Thoughtful UX/UI instantly elevates how users feel about your product and brand."
+    ]
+   ],
+   "why_h2": "Why Us",
+   "why_intro": "Our process blends research, prototyping, testing, and AI tooling to create intuitive, goal-driven designs — faster.",
+   "why": [
+    [
+     "Pro Designers",
+     "Senior designers lead every engagement. AI is a tool in their hands, not a substitute for their judgement."
+    ],
+    [
+     "Future Ready Technology",
+     "We build AI into our workflow — research synthesis, generative exploration, automated QA — and update our stack as better tools arrive."
+    ],
+    [
+     "Fast & Efficient Execution",
+     "AI removes the slow parts of design. You see validated directions in days, not weeks, without skipping the research."
+    ],
+    [
+     "Perfection Until You're Satisfied",
+     "Faster iteration means more rounds of refinement within the same timeline. We keep going until it's right."
+    ],
+    [
+     "Unlimited Unique Designs",
+     "No templates, no recycled patterns. Every product is designed from scratch around your users and your goals."
+    ]
+   ]
+  },
+  "ai-video-design": {
+   "slug": "ai-video-design",
+   "img": "video",
+   "eyebrow": "SERVICES · AI VIDEO DESIGN",
+   "h1": "AI Video Design that looks like it was made by people who care.",
+   "lead": "Marketing videos and product animations — AI-accelerated, human-directed, and never mistaken for AI slop.",
+   "svc_h2": "What We Do",
+   "svc_intro": "AI is the engine. Taste is the driver. Generative tools give us speed — our designers give every frame intent, restraint, and your brand's real voice.",
+   "svc": [
+    {
+     "title": "AI Marketing Videos",
+     "desc": "We produce campaign, social, and ad videos with generative video and image models, then art-direct every shot so the result feels crafted, not generated. On-brand, on-message, and ready to publish fast.",
+     "items": [
+      "Social & Paid Ad Creative",
+      "Launch & Campaign Films",
+      "Short-Form Video (Reels, Shorts, TikTok)",
+      "Brand Storytelling Videos",
+      "Multi-Format & Multi-Ratio Cuts"
+     ]
+    },
+    {
+     "title": "AI Product Animation",
+     "desc": "We turn features and user flows into clear, watchable product videos — blending AI-generated environments and transitions with your real UI, captured accurately. Every animation adds clarity, never confusion.",
+     "items": [
+      "Product Demo & Walkthrough Videos",
+      "Feature Launch Animations",
+      "Explainer Videos",
+      "UI Flow Animations",
+      "Sales & Presentation-Ready Assets"
+     ]
+    },
+    {
+     "title": "Human-Directed AI Craft",
+     "desc": "Our process is built to remove the tells that give generative video away. Designers own the concept, the consistency, and the final cut. AI handles the heavy lifting, not the decisions.",
+     "items": [
+      "Concept, Script & Storyboarding",
+      "Brand-Consistent Characters, Scenes & Styles",
+      "Custom-Trained Visual Looks",
+      "Frame-Level QA & Artifact Cleanup",
+      "Sound Design & Voiceover Direction"
+     ]
+    },
+    {
+     "title": "Video Delivery & Integration",
+     "desc": "We deliver platform-ready video for real-world use. Every export is sized, compressed, and formatted for where it will actually live.",
+     "items": [
+      "Web & App-Ready Video",
+      "Social Platform Exports (all ratios)",
+      "Lottie & Motion Assets",
+      "Source Files & Editable Timelines",
+      "Ongoing Content Iteration"
+     ]
+    }
+   ],
+   "state": "Whether you're launching a product, filling a content calendar, or telling your brand story — it all starts with video people want to watch.",
+   "q_h2": "Words from the People We Design For",
+   "q_intro": "We've been lucky to work with visionary brands and brilliant people — here's what they have to say about building with us.",
+   "quotes": [
+    {
+     "img": "assets/testimonials/woodmizer.webp",
+     "brand": "Wood-Mizer",
+     "quote": "I love it! Many thanks to your team for getting us here. It was a fun & adventurous journey for me & I appreciate all the creative ideas & work put in to get us to this final product.",
+     "name": "Janine Axsom",
+     "job": "Creative Director | Marketing"
+    },
+    {
+     "img": "assets/testimonials/summitk12.webp",
+     "brand": "Summit K12",
+     "quote": "We just wanted to say thank you for you and your team's work in the designs this week. We shared the Summit 360 and Prek-1 designs this morning with the team and the LOVED both! Our team was blown away by the depth and detail of the mock ups your team provided and everyone we showed them to was impressed and eager to see more!",
+     "name": "Jack Kresky",
+     "job": "Senior Product Lead"
+    },
+    {
+     "img": "assets/testimonials/imprintlive.webp",
+     "brand": "Imprint.live",
+     "quote": "We'd like to take this opportunity to extend our heartfelt thanks to the entire Imprint team at Folio3 for their dedication & hard work on the Imprint.live project. Your team's commitment has helped us create something very special, innovative, impactful, & full of potential. Being shortlisted for the Tech Awards 2025 stands as a true testament to the team's endeavour in delivering on our vision.",
+     "name": "Andrew & Harleen",
+     "job": "Imprint.live"
+    },
+    {
+     "img": "assets/testimonials/genopalate.webp",
+     "brand": "GenoPalate",
+     "quote": "Now that we're live on all our platforms, I want to take a moment to thank you for the incredible effort you put into bringing our rebrand to life! This was no small project & we know it came with changing requirements, evolving scope & shifting timelines. Your flexibility & commitment ensured we not only hit our goal date but did so without hiccups. That is a huge accomplishment. We are excited to keep building alongside Folio3. We want to thank you again for being such an important partner in our journey. We could not have done it without you!",
+     "name": "Hannah Pekarek",
+     "job": "Product Manager"
+    },
+    {
+     "img": "assets/testimonials/salaseries.webp",
+     "brand": "SALA Series",
+     "quote": "There is a great working relationship with the team that only continues to improve. The familiarity, expectations & processes for both parties continue to be better understood by each other helping create a more efficient workstream & product that accomplishes our varied objectives. The team works promptly & there is a healthy direct dialogue that has allowed us to prioritize & set expectations appropriately. We strongly value the perspective & opinions of the Folio3 team & are motivated & excited about what opportunities are ahead.",
+     "name": "Jimmy Craft",
+     "job": "Co-Founder, SALA Series & Partner, Foxrock Partners"
+    },
+    {
+     "img": "assets/testimonials/clinicalpad.webp",
+     "brand": "ClinicalPad",
+     "quote": "We want to share our utmost gratitude to you & everyone who has been part of bringing ClinicalPad to the live environment. Given that a platform will always have its share of issues throughout its journey, what impresses us most is how you & the team have dealt with delivering a premium product with minimal issues & the willingness to fix these issues promptly.",
+     "name": "Amri Shafeek",
+     "job": "Co-founder, CEO"
+    },
+    {
+     "img": "assets/testimonials/landteller.webp",
+     "brand": "LandTeller",
+     "quote": "We are extremely satisfied with the Folio3 team & the dedicated efforts they have put into this project. We want to take this opportunity to thank you for your hard work & commitment. Despite the challenges of this complex project & our anticipation of potential delays, the process went relatively smoothly. We look forward to continuing our product development journey with this exceptional team.",
+     "name": "Rachel Li & Ron Koo",
+     "job": "CEO & Co-Founder"
+    },
+    {
+     "img": "assets/testimonials/sb.webp",
+     "brand": "Scottsdale Bachelorette",
+     "quote": "The entire Folio3 team has far exceeded my expectations with the service they ve provided in redesigning my website. Not only are they incredibly skilled in the design & technical work that they do, but each team member has been kind & professional every step of the way. They've made me feel like I am their only client & have been so responsive, proactive & accommodating in ensuring the experience for our customers is best-in-class.",
+     "name": "Casey Hohman",
+     "job": "CEO"
+    }
+   ],
+   "ben_h2": "We make it move. You make it matter.",
+   "ben_intro": "From startups to industry icons — we turn visions into videos that actually get watched.",
+   "benefits": [
+    [
+     "Guide Attention",
+     "Pacing, motion, and framing direct viewers to what matters most. AI lets us test multiple versions fast and keep only the one that lands."
+    ],
+    [
+     "Simplify Complex Flows",
+     "Animation breaks complicated ideas into clear, intuitive steps. AI-generated scenes let us visualise concepts a screen recording never could."
+    ],
+    [
+     "Boost Engagement",
+     "Videos built for each platform keep audiences watching. AI helps us produce enough fresh variants to keep your feed from going stale."
+    ],
+    [
+     "Reinforce Brand Identity",
+     "Custom-trained visual styles and human art direction keep every video unmistakably yours — never generic, never \"that AI look.\""
+    ],
+    [
+     "Scale Without Breaking UX",
+     "AI compresses production time, so you get more videos, faster, across every channel — with the same standard of quality on the first and the fiftieth."
+    ],
+    [
+     "Increase Perceived Value",
+     "People judge with their eyes. A polished, cinematic video instantly elevates how audiences feel about your product and brand."
+    ]
+   ],
+   "why_h2": "Why Us",
+   "why_intro": "From startups to industry icons — we turn visions into interactive realities.",
+   "why": [
+    [
+     "Pro Designers",
+     "Every video is directed by senior designers at Folio3. AI is a tool in their hands, not a replacement for their judgement."
+    ],
+    [
+     "Future Ready Technology",
+     "We work with the latest generative video, image, and audio models — and switch the moment a better tool exists, so your work never looks dated."
+    ],
+    [
+     "Fast & Efficient Execution",
+     "AI cuts weeks out of production. You see first cuts in days, not months, without skipping the craft."
+    ],
+    [
+     "Perfection Until You're Satisfied",
+     "Faster iteration means we can afford to keep refining. We revise until every frame is right, not just \"good enough.\""
+    ],
+    [
+     "Unlimited Unique Designs",
+     "No stock templates, no recycled prompts. Every concept is built from scratch around your brand and your audience."
+    ]
+   ]
+  },
+  "interactive-prototypes": {
+   "slug": "interactive-prototypes",
+   "img": "proto",
+   "eyebrow": "SERVICES · INTERACTIVE & AI-BUILT PROTOTYPES",
+   "h1": "Prototypes that behave like the real product — designed in Figma, built with AI, tested with real users.",
+   "lead": "From clickable flows to working, data-connected prototypes in days. Validate the idea, align the team, and hand off to engineering without starting over.",
+   "svc_h2": "What We Do",
+   "svc_intro": "Every prototype is built to answer a question — will people use this, and how? AI lets us get there in days instead of weeks, and our designers make sure what you test is worth testing.",
+   "svc": [
+    {
+     "title": "Prototype Strategy & Flow Mapping",
+     "desc": "We define what needs proving before anything gets built. AI helps us generate and compare journey options fast; our designers decide which flows reflect how people will actually use the product.",
+     "items": [
+      "User Journey Mapping",
+      "AI-Generated Flow Alternatives & Comparison",
+      "Task Flows & Interaction Planning",
+      "Use Case Prioritisation",
+      "Prototype Scope & Test Hypotheses"
+     ]
+    },
+    {
+     "title": "AI-Built Working Prototypes",
+     "desc": "We go beyond click-throughs. Using Figma Make, Lovable, v0, and Cursor, we turn designs into working prototypes with real logic, sample data, and live interactions — so users test behaviour, not a slideshow.",
+     "items": [
+      "Clickable Interface Prototypes",
+      "Responsive Screen Flows",
+      "Hover, Scroll & Gesture Interactions",
+      "Realistic UI Simulations",
+      "Presentation-Ready Prototypes"
+     ]
+    },
+    {
+     "title": "AI Product Prototyping",
+     "desc": "Prototyping an AI feature means simulating how the model behaves, not just how the screen looks. We prototype copilots, chat and agentic experiences with mocked responses and every state that builds or breaks trust.",
+     "items": [
+      "Conversational, Copilot & Agent UI Prototypes",
+      "Simulated Model Responses & Variability",
+      "Confidence, Uncertainty & Error States",
+      "Latency, Permission & Undo Flows",
+      "Guardrail & Handoff-to-Human Scenarios"
+     ]
+    },
+    {
+     "title": "User Testing Prototypes",
+     "desc": "Most studios stop at the prototype. Folio3 has 600+ engineers, so the prototype your users validated becomes the spec — and the starting point — for a production build by the same company.",
+     "items": [
+      "Production-Readiness Assessment",
+      "Engineering Handoff & Dev-Ready Specs",
+      "Design System Alignment",
+      "Prototype-to-Codebase Migration",
+      "Continuous Design Support Through Build",
+      "User Testing Setup",
+      "Guided Testing Flows",
+      "Feedback Collection Integration",
+      "Stakeholder Review Prototypes",
+      "Iteration-Ready Versions"
+     ]
+    }
+   ],
+   "fid": {
+    "h2": "Not every question needs the same prototype.",
+    "intro": "We match the fidelity to the decision you're trying to make. Going too far too early wastes budget; not far enough wastes the test.",
+    "tiers": [
+     {
+      "title": "Clickable Figma Prototype",
+      "rows": [
+       [
+        "Best for:",
+        "Pitches, stakeholder demos, early direction checks"
+       ],
+       [
+        "Timeline:",
+        "Days"
+       ],
+       [
+        "What you get:",
+        "Linked hi-fi screens with realistic transitions"
+       ],
+       [
+        "Limit:",
+        "No real data or logic — it looks right, it doesn't work"
+       ]
+      ]
+     },
+     {
+      "title": "AI-Built Working Prototype",
+      "rows": [
+       [
+        "Best for:",
+        "Usability testing, investor demos, validating a feature before engineering"
+       ],
+       [
+        "Timeline:",
+        "1–2 weeks"
+       ],
+       [
+        "What you get:",
+        "A hosted, working app with sample data and real interactions"
+       ],
+       [
+        "Limit:",
+        "Not production code — built to learn, then rebuilt to ship"
+       ]
+      ]
+     },
+     {
+      "title": "Production Build",
+      "rows": [
+       [
+        "Best for:",
+        "shipping to real users with real data"
+       ],
+       [
+        "Timeline:",
+        "Scoped per project"
+       ],
+       [
+        "What you get:",
+        "Production-grade product built by Folio3 engineering from the validated prototype"
+       ],
+       [
+        "Limit:",
+        "None — this is the product"
+       ]
+      ]
+     }
+    ],
+    "notes": [
+     "We'll tell you which one you need in the first call — even if it's the cheaper one.",
+     "If it clicks, scrolls, or swipes — we prototype it. Because real feedback needs real behavior"
+    ]
+   },
+   "q_h2": "Words from the People We Design For",
+   "q_intro": "We've been lucky to work with visionary brands and brilliant people — here's what they have to say about building with us.",
+   "quotes": [
+    {
+     "img": "assets/testimonials/woodmizer.webp",
+     "brand": "Wood-Mizer",
+     "quote": "I love it! Many thanks to your team for getting us here. It was a fun & adventurous journey for me & I appreciate all the creative ideas & work put in to get us to this final product.",
+     "name": "Janine Axsom",
+     "job": "Creative Director | Marketing"
+    },
+    {
+     "img": "assets/testimonials/summitk12.webp",
+     "brand": "Summit K12",
+     "quote": "We just wanted to say thank you for you and your team's work in the designs this week. We shared the Summit 360 and Prek-1 designs this morning with the team and the LOVED both! Our team was blown away by the depth and detail of the mock ups your team provided and everyone we showed them to was impressed and eager to see more!",
+     "name": "Jack Kresky",
+     "job": "Senior Product Lead"
+    },
+    {
+     "img": "assets/testimonials/imprintlive.webp",
+     "brand": "Imprint.live",
+     "quote": "We'd like to take this opportunity to extend our heartfelt thanks to the entire Imprint team at Folio3 for their dedication & hard work on the Imprint.live project. Your team's commitment has helped us create something very special, innovative, impactful, & full of potential. Being shortlisted for the Tech Awards 2025 stands as a true testament to the team's endeavour in delivering on our vision.",
+     "name": "Andrew & Harleen",
+     "job": "Imprint.live"
+    },
+    {
+     "img": "assets/testimonials/genopalate.webp",
+     "brand": "GenoPalate",
+     "quote": "Now that we're live on all our platforms, I want to take a moment to thank you for the incredible effort you put into bringing our rebrand to life! This was no small project & we know it came with changing requirements, evolving scope & shifting timelines. Your flexibility & commitment ensured we not only hit our goal date but did so without hiccups. That is a huge accomplishment. We are excited to keep building alongside Folio3. We want to thank you again for being such an important partner in our journey. We could not have done it without you!",
+     "name": "Hannah Pekarek",
+     "job": "Product Manager"
+    },
+    {
+     "img": "assets/testimonials/salaseries.webp",
+     "brand": "SALA Series",
+     "quote": "There is a great working relationship with the team that only continues to improve. The familiarity, expectations & processes for both parties continue to be better understood by each other helping create a more efficient workstream & product that accomplishes our varied objectives. The team works promptly & there is a healthy direct dialogue that has allowed us to prioritize & set expectations appropriately. We strongly value the perspective & opinions of the Folio3 team & are motivated & excited about what opportunities are ahead.",
+     "name": "Jimmy Craft",
+     "job": "Co-Founder, SALA Series & Partner, Foxrock Partners"
+    },
+    {
+     "img": "assets/testimonials/clinicalpad.webp",
+     "brand": "ClinicalPad",
+     "quote": "We want to share our utmost gratitude to you & everyone who has been part of bringing ClinicalPad to the live environment. Given that a platform will always have its share of issues throughout its journey, what impresses us most is how you & the team have dealt with delivering a premium product with minimal issues & the willingness to fix these issues promptly.",
+     "name": "Amri Shafeek",
+     "job": "Co-founder, CEO"
+    },
+    {
+     "img": "assets/testimonials/landteller.webp",
+     "brand": "LandTeller",
+     "quote": "We are extremely satisfied with the Folio3 team & the dedicated efforts they have put into this project. We want to take this opportunity to thank you for your hard work & commitment. Despite the challenges of this complex project & our anticipation of potential delays, the process went relatively smoothly. We look forward to continuing our product development journey with this exceptional team.",
+     "name": "Rachel Li & Ron Koo",
+     "job": "CEO & Co-Founder"
+    },
+    {
+     "img": "assets/testimonials/sb.webp",
+     "brand": "Scottsdale Bachelorette",
+     "quote": "The entire Folio3 team has far exceeded my expectations with the service they ve provided in redesigning my website. Not only are they incredibly skilled in the design & technical work that they do, but each team member has been kind & professional every step of the way. They've made me feel like I am their only client & have been so responsive, proactive & accommodating in ensuring the experience for our customers is best-in-class.",
+     "name": "Casey Hohman",
+     "job": "CEO"
+    }
+   ],
+   "ben_h2": "We make it move. You make it matter.",
+   "ben_intro": "From startups to industry icons — we turn ideas into prototypes people can actually use.",
+   "benefits": [
+    [
+     "Validate Ideas Early",
+     "Test assumptions and gather feedback before investing in development — reduce risk, not just cost."
+    ],
+    [
+     "Align Teams Faster",
+     "Get product, design, and stakeholders on the same page with something real — not abstract."
+    ],
+    [
+     "Speed Up Decision-Making",
+     "No more guessing what \"it'll feel like\" — try it. A working prototype in days means decisions get made this week, not next quarter."
+    ],
+    [
+     "Improve UX Before It's Built",
+     "Spot friction, gaps, and dead ends early. AI-analysed test sessions surface patterns across users so nothing gets missed before dev time starts ticking."
+    ],
+    [
+     "Test the Hard Parts",
+     "AI features, edge cases, error states — the things that usually get discovered in production get discovered in the prototype instead."
+    ],
+    [
+     "Increase Perceived Value",
+     "People judge with their eyes. Thoughtful UX/UI instantly elevates how users feel about your product and brand."
+    ]
+   ],
+   "why_h2": "Why Us",
+   "why_intro": "From startups to industry icons — we turn visions into interactive realities.",
+   "why": [
+    [
+     "Pro Designers",
+     "Senior designers scope, direct, and QA every prototype. AI builds it faster; they make sure it's testing the right thing."
+    ],
+    [
+     "Future Ready Technology",
+     "We build with the current generation of AI prototyping tools — Figma Make, Lovable, v0, Cursor — and switch as better ones arrive."
+    ],
+    [
+     "Fast & Efficient Execution",
+     "Working prototypes in days, not sprints. Iterations happen between test sessions, not between quarters."
+    ],
+    [
+     "Perfection Until You're Satisfied",
+     "Cheap iteration means we don't stop at \"close enough.\" We keep refining until the prototype answers your question."
+    ],
+    [
+     "Unlimited Unique Designs",
+     "No templates, no stock flows. Every prototype is built around your product, your users, and the decision you need to make."
+    ]
+   ]
+  }
+ },
+ "cases": {
+  "mispay": {
+   "slug": "mispay",
+   "title": "MISPAY",
+   "tag": "One Solution for all your shopping experience",
+   "chip": "E-commerce",
+   "thumb": "assets/work/mispay.webp",
+   "hero": "assets/work/mispay.jpg",
+   "meta": {
+    "CLIENT": "MISPAY",
+    "INDUSTRY": "E-commerce",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "MISPay is a Saudi-based payment platform aiming to simplify digital transactions for individuals and businesses. However, its user experience and interface were limiting user adoption, threatening both growth and competitiveness in the rapidly expanding fintech market.",
+    "Our collaboration revitalized MISPay, optimizing the aesthetics, UX, and features of Saudi's top BNPL platform, driving user engagement."
+   ],
+   "problem": {
+    "Problem Statement": "MISPay's user experience and interface were hindering user engagement and adoption, leading to potential revenue loss and a weakened competitive position.",
+    "Challenges": "Conducting user research for this project is challenging due to its Saudi Arabian target audience. Factors like cultural considerations, competitor analysis limitations, and user privacy concerns around national IDs and Iqamas complicate traditional methods like shadowing so its hard to see end-to-end flow of each features"
+   },
+   "process": [
+    [
+     "assets/case/mispay-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/mispay-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/mispay-moodboard.webp",
+     "MOODBOARD & VISUALS"
+    ],
+    [
+     "assets/case/mispay-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/mispay-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/mispay-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/mispay-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  },
+  "risely": {
+   "slug": "risely",
+   "title": "RISELY",
+   "tag": "Empowering Student Growth with Risely",
+   "chip": "EdTech",
+   "thumb": "assets/work/risely.webp",
+   "hero": "assets/case/risely-hero.webp",
+   "meta": {
+    "CLIENT": "RISELY",
+    "INDUSTRY": "EdTech",
+    "SERVICES": "Web App, Mobile App Design, UX Design"
+   },
+   "about": [
+    "Risely AI is an AI-powered platform that helps higher education institutions boost student success and retention. It consolidates student data, identifies at-risk students, and automates personalized outreach, enabling advisors to provide timely, impactful support and improve overall student outcomes. The platform also provides actionable insights and analytics to help institutions make data-driven decisions and optimize their student support strategies."
+   ],
+   "problem": {
+    "Problem Statement": "Higher education institutions struggle to provide timely, personalized support to students due to fragmented data across multiple systems and limited staff capacity. This often leads to delayed interventions, lower retention rates, and suboptimal student outcomes.",
+    "Challenges": ""
+   },
+   "process": [
+    [
+     "assets/case/risely-discovery.webp",
+     "DISCOVERY & BRAINSTORMING"
+    ],
+    [
+     "assets/case/risely-user-flow.webp",
+     "USER FLOW"
+    ],
+    [
+     "assets/case/risely-moodboard.webp",
+     "MOODBOARD & VISUALS DIRECTION"
+    ],
+    [
+     "assets/case/risely-colors.webp",
+     "COLORS"
+    ],
+    [
+     "assets/case/risely-typography.webp",
+     "TYPOGRAPHY"
+    ],
+    [
+     "assets/case/risely-wireframes.webp",
+     "WIREFRAMES"
+    ],
+    [
+     "assets/case/risely-device-mockups.webp",
+     "DEVICE MOCKUPS"
+    ]
+   ]
+  }
+ }
+}

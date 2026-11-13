@@ -1,0 +1,105 @@
+/* Folio3 Design Studio: small layer on top of native Elementor widgets */
+:root { --f3-ease: cubic-bezier(.22,1,.36,1); }
+body { -webkit-font-smoothing: antialiased; }
+::selection { background: #F5CA00; color: #000; }
+
+/* Header */
+.f3-header { position: sticky; top: 0; z-index: 100; backdrop-filter: saturate(180%) blur(12px); -webkit-backdrop-filter: saturate(180%) blur(12px); border-bottom: 1px solid #EEEEEE; }
+.f3-brand { text-decoration: none; }
+.f3-brand-type .elementor-heading-title { padding-left: 12px; border-left: 1px solid #DDDDDD; }
+.f3-link .elementor-heading-title a { position: relative; transition: opacity .3s var(--f3-ease); }
+.f3-link .elementor-heading-title a::after { content: ""; position: absolute; left: 0; right: 0; bottom: -4px; height: 1px; background: currentColor; transform: scaleX(0); transform-origin: right; transition: transform .45s var(--f3-ease); }
+.f3-link .elementor-heading-title a:hover::after { transform: scaleX(1); transform-origin: left; }
+
+/* Buttons: arrow nudge */
+.elementor-button .elementor-button-icon { transition: transform .35s var(--f3-ease); }
+.elementor-button:hover .elementor-button-icon { transform: translateX(4px); }
+
+/* Chips */
+.f3-chip .elementor-heading-title { display: inline-block; padding: 6px 10px; border-radius: 999px; background: #F5F5F5; }
+.f3-chip--design .elementor-heading-title { background: #FFF8D6; }
+.f3-chip--ai .elementor-heading-title { background: #FDE8EA; }
+.f3-chip--engineering .elementor-heading-title { background: #E3F0FE; }
+.f3-chip--platforms .elementor-heading-title { background: #DDF7F4; }
+.f3-capcard:first-child .f3-chip .elementor-heading-title { background: #FFFFFF; }
+
+/* Hero cards */
+.f3-hero-card { transition: transform .5s var(--f3-ease), box-shadow .5s var(--f3-ease); }
+.f3-hero-card:hover { transform: translateY(-8px) rotate(-1.5deg); box-shadow: 0 24px 48px -24px rgba(0,0,0,.35); }
+.f3-badge .elementor-heading-title { display: inline-grid; place-items: center; min-width: 30px; height: 30px; padding: 0 6px; border-radius: 6px; background: #000; }
+.f3-badge--light .elementor-heading-title { background: #FFFFFF; }
+
+/* Cards */
+.f3-card { transition: transform .45s var(--f3-ease), box-shadow .45s var(--f3-ease); }
+.f3-card:hover { transform: translateY(-6px); box-shadow: 0 28px 56px -32px rgba(0,0,0,.28); }
+.f3-offer:nth-child(even) { margin-top: 64px; }
+@media (max-width: 1024px) { .f3-offer:nth-child(even) { margin-top: 0; } }
+.f3-partner--low { margin-top: 32px; }
+@media (max-width: 767px) { .f3-partner--low { margin-top: 0; } }
+
+/* Capability list rows */
+.f3-caplist > .e-con-inner > .elementor-widget, .f3-caplist > .elementor-widget { border-top: 1px solid rgba(0,0,0,.1); padding: 12px 0; }
+.f3-caplist .elementor-icon-box-title { margin-bottom: 2px !important; }
+.f3-capitem .elementor-icon-box-description { font-size: 13px !important; }
+.f3-tool img { display: block; }
+
+/* Logos */
+.f3-logo img { max-height: 44px; width: auto !important; filter: grayscale(1); opacity: .7; transition: filter .4s, opacity .4s; }
+.f3-logo-cell:hover .f3-logo img { filter: none; opacity: 1; }
+
+/* Ticker */
+.f3-ticker { white-space: nowrap; }
+.f3-ticker__text .elementor-heading-title { display: inline-block; white-space: nowrap; animation: f3-marquee 28s linear infinite; }
+@keyframes f3-marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+/* Marquee carousels */
+.f3-marquee .swiper-wrapper { transition-timing-function: linear !important; }
+.f3-marquee img { max-height: 40px; width: auto; margin: 0 auto; filter: grayscale(1); opacity: .75; }
+
+/* Work cards */
+.f3-workcard { color: inherit; }
+.f3-workcard .f3-cover img { width: 100%; object-fit: cover; transition: transform .9s var(--f3-ease); }
+.f3-workcard:hover .f3-cover img { transform: scale(1.04); }
+.f3-cover img { width: 100%; object-fit: cover; }
+.f3-workcard:nth-child(even) { margin-top: 96px; }
+@media (max-width: 767px) { .f3-workcard:nth-child(even) { margin-top: 0; } }
+
+/* Industries grid lines */
+.f3-indgrid > .f3-ind { border-right: 1px solid #EEEEEE; border-bottom: 1px solid #EEEEEE; }
+.f3-indgrid > .f3-ind:nth-child(4n) { border-right: 0; }
+.f3-indgrid > .f3-ind:nth-last-child(-n+4) { border-bottom: 0; }
+@media (max-width: 1024px) { .f3-indgrid > .f3-ind { border-right: 1px solid #EEEEEE !important; border-bottom: 1px solid #EEEEEE !important; } }
+
+/* Process gantt */
+.f3-gantt { border-left: 1px solid #DDDDDD; padding-left: 0; }
+.f3-gantt__bar { width: 30%; }
+.f3-gantt__row:nth-child(5) .f3-gantt__bar { margin-left: 0; }
+.f3-gantt__row:nth-child(4) .f3-gantt__bar { margin-left: 17.5%; }
+.f3-gantt__row:nth-child(3) .f3-gantt__bar { margin-left: 35%; }
+.f3-gantt__row:nth-child(2) .f3-gantt__bar { margin-left: 52.5%; }
+.f3-gantt__row:nth-child(1) .f3-gantt__bar { margin-left: 70%; }
+
+/* Footer wordmark */
+.f3-mega .elementor-heading-title { color: #F2F2F2 !important; user-select: none; }
+
+/* Testimonials */
+.f3-quote { transition: transform .45s var(--f3-ease), box-shadow .45s var(--f3-ease); }
+.f3-quote:hover { transform: translateY(-6px); box-shadow: 0 28px 56px -32px rgba(0,0,0,.28); }
+.f3-quote .elementor-testimonial-image img { width: auto !important; height: 32px !important; max-width: 160px; border-radius: 0 !important; object-fit: contain; }
+.f3-quote .elementor-testimonial-wrapper { text-align: left; }
+.f3-quote .elementor-testimonial-meta { margin-top: 24px; }
+.f3-quote .elementor-testimonial-image { margin-bottom: 20px; }
+
+/* Service "includes" lists */
+.f3-includes .elementor-icon-list-item { border-top: 1px solid #E8E8E8; padding-top: 10px !important; }
+.f3-svc:nth-child(even) > .e-con-inner, .f3-svc:nth-child(even) { flex-direction: row-reverse; }
+@media (max-width: 767px) { .f3-svc:nth-child(even) > .e-con-inner, .f3-svc:nth-child(even) { flex-direction: column; } }
+
+/* Case studies */
+.f3-process-img img { width: 100%; border-radius: 8px; }
+.f3-process-img .widget-image-caption { text-align: left; font: 600 12px/1.4 Inter, sans-serif; letter-spacing: .12em; text-transform: uppercase; color: #757575; margin-top: 14px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .f3-ticker__text .elementor-heading-title { animation: none; }
+  .f3-card, .f3-hero-card, .f3-workcard .f3-cover img { transition: none; }
+}
