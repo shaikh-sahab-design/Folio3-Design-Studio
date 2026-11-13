@@ -19,7 +19,7 @@ function f3_page_service( $slug ) {
 			f3_lead( $d['lead'], [ 'maxw' => 640 ] ),
 			f3_button( "Let's Collaborate", f3_url( 'contact' ), 'dark' ),
 		] ),
-		f3_image( f3_img( 'assets/services/hero.webp' ), [ 'class' => 'f3-cover', 'h' => 520, 'h_m' => 260, 'radius' => 16, 'anim' => 'fadeIn' ] ),
+		f3_image( f3_img( 'assets/services/hero.webp' ), [ 'class' => 'f3-cover f3-reveal-img', 'h' => 520, 'h_m' => 260, 'radius' => 16 ] ),
 	] );
 
 	/* Logo marquee */
@@ -84,7 +84,7 @@ function f3_page_service( $slug ) {
 	if ( ! empty( $d['fid'] ) ) {
 		$tiers = [];
 		foreach ( $d['fid']['tiers'] as $i => $t ) {
-			$dark = 1 === $i;
+			$dark = false;
 			$rows = [];
 			foreach ( $t['rows'] as $r ) {
 				$rows[] = f3_icon_box( '', rtrim( $r[0], ':' ), $r[1], [ 'icon' => 'none', 'tag' => 'h4', 'title_sizes' => [ 12, 12, 12 ], 'title_color' => $dark ? '#999999' : F3_MUTED, 'desc_color' => $dark ? '#FFFFFF' : F3_INK2, 'class' => 'f3-fidrow' ] );
@@ -102,7 +102,7 @@ function f3_page_service( $slug ) {
 				f3_heading( $d['fid']['h2'], 'h2', [ 64, 48, 36 ], [ 'anim' => 'fadeInUp', 'maxw' => 900 ] ),
 				f3_lead( $d['fid']['intro'], [ 'maxw' => 640 ] ),
 			] ),
-			f3_c( [ 'grid' => 3, 'grid_t' => 1, 'grid_m' => 1, 'gap' => 16 ], $tiers ),
+			f3_c( [ 'grid' => 3, 'grid_t' => 1, 'grid_m' => 1, 'gap' => 16, 'class' => 'f3-tiers' ], $tiers ),
 			f3_text( implode( ' ', $d['fid']['notes'] ), [ 'sizes' => [ 15 ] ] ),
 		] );
 	}
@@ -129,7 +129,7 @@ function f3_page_service( $slug ) {
 			f3_heading( $d['q_h2'], 'h2', [ 64, 48, 36 ], [ 'anim' => 'fadeInUp', 'maxw' => 640 ] ),
 			f3_lead( $d['q_intro'], [ 'maxw' => 600 ] ),
 		] ),
-		f3_c( [ 'grid' => 2, 'grid_t' => 2, 'grid_m' => 1, 'gap' => 16 ], $qs ),
+		f3_c( [ 'dir' => 'row', 'dir_m' => 'row', 'gap' => 16, 'class' => 'f3-quotes' ], $qs ),
 	] );
 
 	/* Benefits */
@@ -179,7 +179,7 @@ function f3_page_service( $slug ) {
 function f3_case_card( $c, $delay = 0 ) {
 	$post = get_page_by_path( $c['slug'], OBJECT, 'post' );
 	return f3_c( [ 'gap' => 18, 'link' => $post ? get_permalink( $post ) : f3_url( 'work' ), 'class' => 'f3-workcard', 'anim' => 'fadeInUp', 'delay' => $delay ], [
-		f3_c( [ 'radius' => 8, 'overflow' => 'hidden' ], [ f3_image( f3_img( $c['thumb'] ), [ 'class' => 'f3-cover', 'h' => 460, 'h_m' => 260 ] ) ] ),
+		f3_c( [ 'radius' => 8, 'overflow' => 'hidden', 'class' => 'f3-workcard__media' ], [ f3_image( f3_img( $c['thumb'] ), [ 'class' => 'f3-cover', 'h' => 460, 'h_m' => 260 ] ) ] ),
 		f3_c( [ 'dir' => 'row', 'dir_m' => 'row', 'justify' => 'space-between', 'align' => 'flex-start', 'gap' => 16 ], [
 			f3_c( [ 'gap' => 6 ], [ f3_heading( $c['title'], 'h3', [ 28, 24, 22 ], [ 'ls' => -0.03 ] ), '' !== trim( $c['tag'] ) ? f3_text( $c['tag'], [ 'sizes' => [ 15 ] ] ) : null ] ),
 			f3_chips( [ $c['chip'] ] ),
@@ -215,7 +215,7 @@ function f3_page_case( $slug ) {
 	$c = $all[ $slug ];
 	$chapter = function ( $n, $label ) {
 		return f3_c( [ 'width' => 26, 'gap' => 8 ], [
-			f3_heading( '/' . $n, 'span', [ 72, 56, 44 ], [ 'weight' => '800', 'color' => '#B9BDC2', 'ls' => -0.05, 'lh' => 1 ] ),
+			f3_heading( '/' . $n, 'span', [ 72, 56, 44 ], [ 'weight' => '800', 'color' => '#B9BDC2', 'ls' => -0.05, 'lh' => 1, 'class' => 'f3-chapter' ] ),
 			f3_eyebrow( $label, F3_INK ),
 		] );
 	};
@@ -232,7 +232,7 @@ function f3_page_case( $slug ) {
 			f3_button( "Let's Collaborate", f3_url( 'contact' ), 'dark' ),
 		] ),
 		f3_c( [ 'grid' => 3, 'grid_t' => 3, 'grid_m' => 1, 'gap' => 24, 'pad' => [ 24, 0, 0, 0 ], 'border' => F3_LINE, 'border_w' => [ 1, 0, 0, 0 ] ], $meta ),
-		f3_image( f3_img( $c['hero'] ), [ 'class' => 'f3-cover', 'radius' => 16, 'h' => 720, 'h_m' => 320, 'anim' => 'fadeIn' ] ),
+		f3_image( f3_img( $c['hero'] ), [ 'class' => 'f3-cover f3-reveal-img', 'radius' => 16, 'h' => 720, 'h_m' => 320 ] ),
 	] );
 
 	$about = [];

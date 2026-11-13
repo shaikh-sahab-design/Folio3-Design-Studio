@@ -41,13 +41,13 @@ function f3_page_home() {
 		] );
 	}
 	$E[] = f3_section( [ 'y' => 72, 'yb' => 96, 'gap' => 64, 'class' => 'f3-hero' ], [
-		f3_heading( 'One team, from first sketch to shipped product.', 'h1', [ 150, 96, 54 ], [ 'weight' => '800', 'lh' => 0.92, 'ls' => -0.055, 'anim' => 'fadeInUp', 'maxw' => 1240 ] ),
-		f3_c( [ 'grid' => 4, 'grid_t' => 2, 'grid_m' => 1, 'gap' => 16 ], $cards ),
+		f3_heading( 'One team, from first sketch to shipped product.', 'h1', [ 150, 96, 54 ], [ 'weight' => '800', 'lh' => 0.92, 'ls' => -0.055, 'maxw' => 1240, 'class' => 'f3-hero-title' ] ),
+		f3_c( [ 'grid' => 4, 'grid_t' => 2, 'grid_m' => 1, 'gap' => 16, 'class' => 'f3-hero-deck' ], $cards ),
 	] );
 
 	/* Statement */
 	$E[] = f3_section( [ 'y' => 40, 'yb' => 120, 'gap' => 40 ], [
-		f3_heading( 'We’re Folio3’s design studio, turning ideas into reality through AI-powered design and collaboration.', 'p', [ 72, 52, 34 ], [ 'weight' => '700', 'lh' => 1.02, 'ls' => -0.045, 'anim' => 'fadeInUp', 'maxw' => 1200 ] ),
+		f3_heading( 'We’re Folio3’s design studio, turning ideas into reality through AI-powered design and collaboration.', 'p', [ 72, 52, 34 ], [ 'weight' => '700', 'lh' => 1.02, 'ls' => -0.045, 'maxw' => 1200, 'class' => 'f3-statement' ] ),
 		f3_c( [ 'dir' => 'row', 'dir_m' => 'row', 'gap' => 12, 'wrap' => true ], [
 			f3_button( 'Start a project', f3_url( 'contact' ), 'dark' ),
 			f3_button( 'See the work', f3_url( 'work' ), 'outline' ),
@@ -74,7 +74,7 @@ function f3_page_home() {
 	}
 	$E[] = f3_section( [ 'y' => 96, 'gap' => 48, 'class' => 'f3-clients' ], [
 		f3_heading( 'Folio3 has built for', 'h2', [ 28, 24, 22 ], [ 'ls' => -0.02 ] ),
-		f3_c( [ 'grid' => 7, 'grid_t' => 4, 'grid_m' => 3, 'gap' => 16, 'rgap' => 16 ], $cells ),
+		f3_c( [ 'grid' => 7, 'grid_t' => 4, 'grid_m' => 3, 'gap' => 16, 'rgap' => 16, 'class' => 'f3-logos' ], $cells ),
 	] );
 
 	/* Capabilities */
@@ -97,7 +97,7 @@ function f3_page_home() {
 				f3_heading( $name, 'span', [ 13 ], [ 'weight' => '600', 'ls' => 0 ] ),
 			] );
 		}
-		$capcards[] = f3_c( [ 'dir' => 'row', 'gap' => 40, 'bg' => $i === 0 ? F3_YELLOW : F3_S2, 'radius' => 12, 'pad' => [ 24, 40, 24, 24 ], 'pad_m' => [ 16, 16, 28, 16 ], 'anim' => 'fadeInUp', 'class' => 'f3-capcard', 'align' => 'center' ], [
+		$capcards[] = f3_c( [ 'dir' => 'row', 'gap' => 40, 'bg' => F3_S2, 'radius' => 12, 'pad' => [ 24, 40, 24, 24 ], 'pad_m' => [ 16, 16, 28, 16 ], 'anim' => 'fadeInUp', 'class' => 'f3-capcard', 'align' => 'center' ], [
 			f3_c( [ 'width' => 50, 'bg_img' => f3_img( 'assets/caps/' . $c[2] ), 'radius' => 8, 'minh' => 360, 'minh_m' => 240, 'pad' => [ 16 ], 'justify' => 'flex-end' ], [
 				f3_c( [ 'grid' => 2, 'grid_t' => 2, 'grid_m' => 2, 'gap' => 8 ], $tools ),
 			] ),
@@ -116,11 +116,11 @@ function f3_page_home() {
 			] ),
 			f3_text( 'Each color marks one Folio3 capability. The studio leads the project and brings in the rest of the company as the work needs it.', [ 'sizes' => [ 18, 17, 16 ], 'maxw' => 440 ] ),
 		] ),
-		f3_c( [ 'gap' => 16 ], $capcards ),
+		f3_c( [ 'gap' => 16, 'class' => 'f3-capsdeck' ], $capcards ),
 	] );
 
 	/* Offers */
-	$offers = [
+$offers = [
 		[ [ 'Design', 'Engineering' ], 'Prototype to Product', 'Validate an idea with an AI-built prototype real users can try, then take it to production with our engineers. No rebuild from zero, no lost context.', 'Prototype → production, one team', F3_BLUE ],
 		[ [ 'Design', 'AI' ], 'AI Experience Design', 'Copilots, agents and AI features people trust. Our designers shape the experience while our AI practice builds the models, agents and guardrails.', 'Phase 0 discovery → designed and built AI feature', F3_RED ],
 		[ [ 'Design', 'Platforms' ], 'Platform UX', 'Customer portals, storefronts and back-office screens on NetSuite, Dynamics 365 and Salesforce that feel like products, not admin panels.', 'UX → platform implementation, one team', F3_TEAL ],
@@ -128,20 +128,24 @@ function f3_page_home() {
 	];
 	$oc = [];
 	foreach ( $offers as $i => $o ) {
-		$oc[] = f3_c( [ 'bg' => '#FFFFFF', 'radius' => 12, 'pad' => [ 36 ], 'pad_m' => [ 24 ], 'gap' => 20, 'border' => '#E3E4E5', 'class' => 'f3-card f3-offer', 'anim' => 'fadeInUp', 'delay' => ( $i % 2 ) * 120 ], [
+		$card = f3_c( [ 'width' => 44, 'bg' => '#FFFFFF', 'radius' => 12, 'pad' => [ 36 ], 'pad_m' => [ 24 ], 'gap' => 20, 'border' => '#E3E4E5', 'class' => 'f3-offer' ], [
 			f3_c( [ 'dir' => 'row', 'dir_m' => 'row', 'justify' => 'space-between', 'align' => 'center' ], [
-				f3_heading( sprintf( '%02d', $i + 1 ), 'span', [ 56, 48, 40 ], [ 'weight' => '800', 'color' => '#E9EAEB', 'ls' => -0.05, 'lh' => 1 ] ),
+				f3_w( 'divider', [ 'color' => $o[4], 'weight' => f3_u( 3 ), 'width' => f3_u( 28, 'px' ), 'gap' => f3_u( 2 ) ] ),
 				f3_chips( $o[0] ),
 			] ),
 			f3_heading( $o[1], 'h3', [ 30, 26, 24 ], [ 'ls' => -0.03 ] ),
 			f3_text( $o[2] ),
-			f3_icon_list( [ $o[3] ], [ 'icon' => 'fas fa-circle', 'icon_size' => 7, 'icon_color' => $o[4], 'sizes' => [ 13 ], 'weight' => '600', 'class' => 'f3-note' ] ),
+			f3_icon_list( [ $o[3] ], [ 'icon' => 'fas fa-circle', 'icon_size' => 7, 'icon_color' => $o[4], 'sizes' => [ 13 ], 'weight' => '600' ] ),
 			f3_button( 'Connect with Us', f3_url( 'contact' ), 'dark' ),
 		] );
+		$num = f3_c( [ 'width' => 44, 'hide' => [ 'mobile' ], 'class' => 'f3-flow__numwrap' ], [
+			f3_heading( sprintf( '%02d', $i + 1 ), 'span', [ 150, 110, 80 ], [ 'weight' => '800', 'color' => '#EEEEEE', 'ls' => -0.06, 'lh' => 0.9, 'class' => 'f3-flow__num', 'align' => $i % 2 ? 'right' : 'left' ] ),
+		] );
+		$oc[] = f3_c( [ 'dir' => 'row', 'justify' => 'space-between', 'align' => 'center', 'gap' => 0, 'class' => 'f3-flow__step f3-flow__step--' . ( $i % 2 ? 'r' : 'l' ) ], $i % 2 ? [ $num, $card ] : [ $card, $num ] );
 	}
 	$E[] = f3_section( [ 'y' => 120, 'gap' => 56, 'id' => 'offers' ], [
-		f3_c( [ 'gap' => 16 ], [ f3_eyebrow( 'Ways to work with us' ), f3_heading( 'Design-led offers that end in a working product', 'h2', [ 64, 48, 36 ], [ 'anim' => 'fadeInUp', 'maxw' => 900 ] ) ] ),
-		f3_c( [ 'grid' => 2, 'grid_t' => 2, 'grid_m' => 1, 'gap' => 20 ], $oc ),
+		f3_c( [ 'gap' => 16 ], [ f3_eyebrow( 'Ways to work with us' ), f3_heading( 'Design-led offers that end in a working product', 'h2', [ 64, 48, 36 ], [ 'maxw' => 900 ] ) ] ),
+		f3_c( [ 'gap' => 56, 'class' => 'f3-flow' ], $oc ),
 	] );
 
 	/* Stages */
@@ -172,12 +176,12 @@ function f3_page_home() {
 			f3_heading( 'Built for every stage of growth', 'h2', [ 64, 48, 36 ], [ 'anim' => 'fadeInUp' ] ),
 			f3_lead( "A startup needs proof. A growing company needs speed. An enterprise needs change it can trust. We shape each engagement around where you are, and bring in Folio3's engineering, AI and platform teams as you grow.", [ 'maxw' => 820 ] ),
 		] ),
-		f3_c( [ 'grid' => 3, 'grid_t' => 1, 'grid_m' => 1, 'gap' => 16 ], $sc ),
+		f3_c( [ 'grid' => 3, 'grid_t' => 1, 'grid_m' => 1, 'gap' => 16, 'class' => 'f3-picks' ], $sc ),
 	] );
 
 	/* Big type band */
 	$E[] = f3_c( [ 'inner' => false, 'pad' => [ 40, 0 ], 'overflow' => 'hidden', 'class' => 'f3-ticker' ], [
-		f3_heading( 'ideas in work · ideas in work · ideas in work · ideas in work ·', 'div', [ 260, 180, 110 ], [ 'weight' => '800', 'lh' => 1, 'ls' => -0.06, 'class' => 'f3-ticker__text' ] ),
+		f3_heading( 'ideas in work.', 'div', [ 260, 180, 110 ], [ 'weight' => '800', 'lh' => 1, 'ls' => -0.06, 'class' => 'f3-ticker__text' ] ),
 	] );
 
 	/* Work */
@@ -227,7 +231,7 @@ function f3_page_home() {
 				f3_heading( $s[0], 'span', [ 14 ], [ 'color' => '#FFFFFF', 'weight' => '600', 'ls' => 0 ] ),
 			] ),
 		] );
-		$pc[] = f3_icon_box( '', $s[0], $s[1], [ 'icon' => 'none', 'title_sizes' => [ 28, 24, 22 ], 'anim' => 'fadeInUp', 'delay' => $i * 100 ] );
+		$pc[] = f3_icon_box( '', $s[0], $s[1], [ 'icon' => 'none', 'title_sizes' => [ 28, 24, 22 ], 'class' => 'f3-step' ] );
 	}
 	$E[] = f3_section( [ 'y' => 120, 'gap' => 56, 'id' => 'process' ], [
 		f3_c( [ 'gap' => 16 ], [
@@ -247,7 +251,7 @@ function f3_page_home() {
 	];
 	$mc = [];
 	foreach ( $models as $i => $m ) {
-		$dark = $m[4];
+		$dark = false;
 		$mc[] = f3_c( [ 'bg' => $dark ? F3_INK : F3_S2, 'radius' => 8, 'pad' => [ 36 ], 'pad_m' => [ 24 ], 'gap' => 24, 'minh' => 440, 'minh_m' => 0, 'justify' => 'space-between', 'class' => 'f3-card f3-price' . ( $dark ? ' f3-price--dark' : '' ), 'anim' => 'fadeInUp', 'delay' => $i * 120 ], [
 			f3_c( [ 'gap' => 16 ], [
 				f3_eyebrow( $m[0], $dark ? '#999999' : F3_MUTED ),
@@ -261,7 +265,7 @@ function f3_page_home() {
 	}
 	$E[] = f3_section( [ 'y' => 120, 'gap' => 56, 'id' => 'engage' ], [
 		f3_c( [ 'gap' => 16 ], [ f3_eyebrow( 'Engagement models' ), f3_heading( 'Use as much of<br>Folio3 as you need', 'h2', [ 64, 48, 36 ], [ 'anim' => 'fadeInUp' ] ) ] ),
-		f3_c( [ 'grid' => 3, 'grid_t' => 1, 'grid_m' => 1, 'gap' => 16 ], $mc ),
+		f3_c( [ 'grid' => 3, 'grid_t' => 1, 'grid_m' => 1, 'gap' => 16, 'class' => 'f3-models' ], $mc ),
 	] );
 
 	/* Partners */
@@ -276,7 +280,7 @@ function f3_page_home() {
 	}
 	$E[] = f3_section( [ 'y' => 120, 'gap' => 56 ], [
 		f3_heading( 'Recognized by the platforms we build on', 'h2', [ 64, 48, 36 ], [ 'anim' => 'fadeInUp', 'maxw' => 820 ] ),
-		f3_c( [ 'grid' => 4, 'grid_t' => 2, 'grid_m' => 1, 'gap' => 16 ], $pcards ),
+		f3_c( [ 'grid' => 4, 'grid_t' => 2, 'grid_m' => 1, 'gap' => 16, 'class' => 'f3-partners' ], $pcards ),
 	] );
 
 	$E[] = f3_cta();

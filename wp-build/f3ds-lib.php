@@ -144,7 +144,8 @@ function f3_heading( $text, $tag = 'h2', $sizes = [ 64, 48, 36 ], $o = [] ) {
 	if ( isset( $o['link'] ) ) { $s['link'] = [ 'url' => $o['link'] ]; }
 	if ( isset( $o['anim'] ) ) { $s['_animation'] = $o['anim']; $s['_animation_delay'] = $o['delay'] ?? 0; }
 	if ( isset( $o['maxw'] ) ) { $s['_element_width'] = 'initial'; $s['_element_custom_width'] = f3_u( $o['maxw'] ); $s['_element_width_mobile'] = 'inherit'; }
-	if ( isset( $o['class'] ) ) { $s['_css_classes'] = $o['class']; }
+	$cls = trim( ( in_array( $tag, [ 'h1', 'h2' ], true ) ? 'f3-split ' : '' ) . ( $o['class'] ?? '' ) );
+	if ( '' !== $cls ) { $s['_css_classes'] = $cls; }
 	if ( isset( $o['margin'] ) ) { $s['_margin'] = f3_box( ...$o['margin'] ); }
 	return f3_w( 'heading', $s );
 }
@@ -183,7 +184,7 @@ function f3_button( $text, $url, $style = 'dark', $o = [] ) {
 	if ( 'outline' === $style ) { $s['border_border'] = 'solid'; $s['border_width'] = f3_box( 1 ); $s['border_color'] = F3_INK; }
 	if ( isset( $o['align_m'] ) ) { $s['align_mobile'] = $o['align_m']; }
 	if ( isset( $o['anim'] ) ) { $s['_animation'] = $o['anim']; $s['_animation_delay'] = $o['delay'] ?? 0; }
-	if ( isset( $o['class'] ) ) { $s['_css_classes'] = $o['class']; }
+	$s['_css_classes'] = trim( 'f3-btn f3-btn--' . $style . ' ' . ( $o['class'] ?? '' ) );
 	return f3_w( 'button', $s );
 }
 
@@ -374,7 +375,15 @@ function f3_footer() {
 }
 
 /** Save Elementor data to a post and set canvas template. */
+function f3_strip_anim( $els ) {
+	foreach ( $els as &$el ) {
+		foreach ( [ 'animation', '_animation', 'animation_delay', '_animation_delay', 'animation_duration', 'hover_animation' ] as $k ) { unset( $el['settings'][ $k ] ); }
+		if ( ! empty( $el['elements'] ) ) { $el['elements'] = f3_strip_anim( $el['elements'] ); }
+	}
+	return $els;
+}
 function f3_save( $post_id, $elements, $type = 'wp-page' ) {
+	$elements = f3_strip_anim( array_values( $elements ) );
 	$json = wp_json_encode( array_values( $elements ) );
 	update_post_meta( $post_id, '_elementor_edit_mode', 'builder' );
 	update_post_meta( $post_id, '_elementor_template_type', $type );
