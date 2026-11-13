@@ -201,7 +201,7 @@ function f3_icon_box( $icon, $title, $desc, $o = [] ) {
 		'title_text' => $title, 'description_text' => $desc, 'title_size' => $o['tag'] ?? 'h3',
 		'position' => $o['position'] ?? 'top', 'text_align' => $o['text_align'] ?? 'left',
 		'view' => $o['view'] ?? 'stacked', 'shape' => $o['shape'] ?? 'square',
-		'primary_color' => $o['icon_bg'] ?? F3_S2, 'secondary_color' => $o['icon_color'] ?? F3_INK,
+		'primary_color' => 'default' === ( $o['view'] ?? 'stacked' ) ? ( $o['icon_color'] ?? F3_INK ) : ( $o['icon_bg'] ?? F3_S2 ), 'secondary_color' => $o['icon_color'] ?? F3_INK,
 		'icon_size' => f3_u( $o['icon_size'] ?? 18 ), 'icon_padding' => f3_u( $o['icon_pad'] ?? 12 ), 'border_radius' => f3_box( 8 ),
 		'icon_space' => f3_u( $o['icon_space'] ?? 28 ), 'title_bottom_space' => f3_u( 10 ),
 		'title_color' => $o['title_color'] ?? F3_INK, 'description_color' => $o['desc_color'] ?? F3_MUTED,

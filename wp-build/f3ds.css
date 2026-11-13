@@ -113,3 +113,7 @@ body { -webkit-font-smoothing: antialiased; }
 /* Keep nav labels and buttons on one line */
 .f3-nav .elementor-heading-title, .f3-header .elementor-button { white-space: nowrap; }
 .f3-iconbox .elementor-icon-box-icon:empty { display: none; }
+
+/* Gantt bars keep a fixed share of the track; card text takes the free space */
+.f3-gantt__bar { width: 30% !important; max-width: 30%; flex: 0 0 30% !important; }
+.f3-workcard > .e-con > .e-con:first-child, .f3-workcard > .e-con-inner > .e-con > .e-con:first-child { flex: 1 1 auto; }
