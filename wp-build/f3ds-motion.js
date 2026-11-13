@@ -162,26 +162,105 @@
     d.documentElement.classList.add('f3-hero-intro');
     mm.add('(min-width: 1024px)', function () {
       var FAN = [{ x: -0.342, y: -0.008, r: -9 }, { x: -0.112, y: -0.078, r: -3 }, { x: 0.119, y: -0.058, r: 4 }, { x: 0.349, y: 0.012, r: 10 }];
-      var pos = [], lift = 0;
+      var pos = [], lift = 0, prog = 0, open = null, cw = 0, ch = 0, mid = 0;
+      var trail = cards.map(function () { return null; });
+      var lerp = function (a, b, t) { return a + (b - a) * t; };
+      var io = function (t) { return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; };
       var measure = function () {
         var t = off(htitle, hero), dk = off(deck, hero);
         var cx = dk.x + deck.offsetWidth / 2, cy = t.y + htitle.offsetHeight * 0.36;
+        cw = cards[0].offsetWidth; ch = cards[0].offsetHeight;
         pos = cards.map(function (c, i) {
           var o = off(c, hero), f = FAN[i % 4];
-          return { x: cx + f.x * c.offsetWidth * 1.15 - (o.x + c.offsetWidth / 2), y: cy + f.y * c.offsetHeight - (o.y + c.offsetHeight / 2), r: f.r };
+          return { x: cx + f.x * cw * 1.15 - (o.x + cw / 2), y: cy + f.y * ch - (o.y + ch / 2), r: f.r, mx: cx - (o.x + cw / 2), my: cy - (o.y + ch / 2) };
         });
         lift = Math.max(0, hero.offsetHeight - w.innerHeight + 8);
       };
-      measure();
-      var tl = gsap.timeline({ defaults: { ease: 'power2.inOut', duration: 1 }, scrollTrigger: {
-        trigger: hero, start: 'top top', end: '+=110%', pin: true, pinSpacing: true, scrub: 0.6, invalidateOnRefresh: true, onRefreshInit: measure } });
-      cards.forEach(function (c, i) {
-        c.style.zIndex = String(10 - i);
-        tl.fromTo(c, { x: function () { return pos[i].x; }, y: function () { return pos[i].y; }, rotation: function () { return pos[i].r; }, scale: 1.18 },
-          { x: 0, y: 0, rotation: 0, scale: 1 }, 0.15);
+      /* where card i belongs right now: fan -> row by scroll, shifted when a card is open */
+      var place = function (i) {
+        if (trail[i] && open === null) return trail[i];
+        var R = io(Math.min(1, Math.max(0, (prog - 0.15) / 0.85))), p = pos[i];
+        var base = { x: lerp(p.x, 0, R), y: lerp(p.y, 0, R), r: lerp(p.r, 0, R), s: lerp(1.18, 1, R), z: 10 - i };
+        if (open === null) return base;
+        if (i === open) return { x: lerp(p.mx, 0, R), y: lerp(p.my + ch * 0.04, -14, R), r: 0, s: lerp(1.42, 1.1, R), z: 50 };
+        var sgn = i < open ? -1 : 1, far = Math.abs(i - open) > 1 ? 1.35 : 1;
+        return { x: base.x + sgn * lerp(cw * 0.6, 18, R) * far, y: base.y + lerp(ch * 0.05, 8, R), r: base.r + sgn * lerp(8, 0, R), s: base.s * 0.94, z: base.z };
+      };
+      var layout = function (dur, ease) {
+        cards.forEach(function (c, i) {
+          var p = place(i);
+          c.style.zIndex = String(p.z);
+          c.classList.toggle('is-open', open === i);
+          c.setAttribute('aria-expanded', String(open === i));
+          gsap.to(c, { x: p.x, y: p.y, rotation: p.r, scale: p.s, duration: dur, ease: ease || 'power3.out', overwrite: 'auto' });
+        });
+        gsap.to([htitle, deck], { y: -lift * prog, duration: dur, ease: 'power3.out', overwrite: 'auto' });
+      };
+      measure(); layout(0);
+      var pin = ST.create({ trigger: hero, start: 'top top', end: '+=110%', pin: true, pinSpacing: true, invalidateOnRefresh: true,
+        onRefresh: function (s) { measure(); prog = s.progress; layout(0); },
+        onUpdate: function (s) { prog = s.progress; layout(0.55); } });
+
+      /* click a card to bring it forward; click away or press Escape to put it back */
+      var close = function () { if (open !== null) { open = null; layout(0.8, EASE); } };
+      var clicks = cards.map(function (c, i) {
+        c.setAttribute('role', 'button'); c.setAttribute('tabindex', '0');
+        var fn = function (e) { e.stopPropagation(); trail = trail.map(function () { return null; }); open = open === i ? null : i; layout(0.85, EASE); };
+        var key = function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); fn(e); } };
+        c.addEventListener('click', fn); c.addEventListener('keydown', key);
+        return function () { c.removeEventListener('click', fn); c.removeEventListener('keydown', key); };
       });
-      tl.fromTo([htitle, deck], { y: 0 }, { y: function () { return -lift; }, ease: 'none', duration: 1.15 }, 0);
-      return function () { gsap.set(cards.concat([htitle, deck]), { clearProps: 'transform,zIndex' }); };
+      var esc = function (e) { if (e.key === 'Escape') close(); };
+      hero.addEventListener('click', close); w.addEventListener('keydown', esc);
+
+      /* pointer trail: cards take turns flying to the cursor, then settle back */
+      var last = null, turn = 0, zTop = 20, idle = 0, raf = 0, next = null, born = Date.now();
+      var cfg = function () { return w.innerWidth >= 1200 ? { gap: 96, scale: 0.74, tilt: 9, follow: 0.62 } : { gap: 132, scale: 0.6, tilt: 5, follow: 0.7 }; };
+      var settle = function () {
+        if (!trail.some(Boolean)) return;
+        trail = trail.map(function () { return null; }); zTop = 20;
+        cards.forEach(function (c, i) {
+          var p = place(i);
+          gsap.to(c, { x: p.x, y: p.y, rotation: p.r, scale: p.s, duration: 1.15, ease: EASE, delay: i * 0.04, overwrite: 'auto', onComplete: function () { c.style.zIndex = String(place(i).z); } });
+        });
+      };
+      var fly = function () {
+        raf = 0;
+        if (!next || open !== null) return;
+        var n = next, k = cfg(); next = null;
+        var i = turn; turn = (turn + 1) % cards.length;
+        var c = cards[i], cr = c.getBoundingClientRect(), hr = hero.getBoundingClientRect();
+        var s = k.scale * (prog > 0.15 ? 1 : 1.1), hw = cw * s / 2 + 12, hh = ch * s / 2 + 12;
+        var px = Math.min(hr.right - hw, Math.max(hr.left + hw, n.x));
+        var py = Math.min(Math.min(hr.bottom, w.innerHeight) - hh, Math.max(Math.max(hr.top, 0) + hh, n.y));
+        var gx = Number(gsap.getProperty(c, 'x')) || 0, gy = Number(gsap.getProperty(c, 'y')) || 0;
+        var t = { x: px - (cr.left + cr.width / 2 - gx), y: py - (cr.top + cr.height / 2 - gy), r: Math.max(-k.tilt, Math.min(k.tilt, n.dx * 0.12 + n.dy * 0.04)), s: s, z: ++zTop };
+        trail[i] = t; c.style.zIndex = String(t.z);
+        gsap.killTweensOf(c);
+        gsap.to(c, { x: t.x, y: t.y, rotation: t.r, duration: k.follow, ease: 'power3.out' });
+        gsap.fromTo(c, { scale: s * 0.82 }, { scale: s, duration: 0.5, ease: EASE });
+      };
+      var move = function (e) {
+        if (e.pointerType !== 'mouse' || open !== null || Date.now() - born < 2200) return;
+        var p = { x: e.clientX, y: e.clientY };
+        if (!last) { last = p; return; }
+        var dx = p.x - last.x, dy = p.y - last.y, dist = Math.hypot(dx, dy);
+        if (dist >= cfg().gap) {
+          next = { x: p.x, y: p.y, dx: dx / Math.max(1, dist) * 40, dy: dy / Math.max(1, dist) * 40 };
+          last = p; if (!raf) raf = requestAnimationFrame(fly);
+        }
+        clearTimeout(idle); idle = setTimeout(settle, 650);
+      };
+      var leave = function () { clearTimeout(idle); last = null; settle(); };
+      if (fine) { hero.addEventListener('pointermove', move); hero.addEventListener('pointerleave', leave); }
+
+      return function () {
+        pin.kill(); clicks.forEach(function (f) { f(); });
+        hero.removeEventListener('click', close); w.removeEventListener('keydown', esc);
+        hero.removeEventListener('pointermove', move); hero.removeEventListener('pointerleave', leave);
+        clearTimeout(idle); cancelAnimationFrame(raf);
+        gsap.set(cards.concat([htitle, deck]), { clearProps: 'transform,zIndex' });
+      };
     });
   }
 

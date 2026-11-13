@@ -20,7 +20,8 @@ body { -webkit-font-smoothing: antialiased; }
 
 /* Hero cards */
 .f3-hero-card { transition: translate .5s var(--f3-ease), box-shadow .5s var(--f3-ease); }
-.f3-hero-card:hover { translate: 0 -8px; box-shadow: 0 24px 48px -24px rgba(0,0,0,.35); }
+.f3-hero-card { box-shadow: 0 2.4px 7px rgba(0,0,0,.06), 0 28px 56px rgba(0,0,0,.14); }
+.f3-hero-card.is-open { box-shadow: 0 6px 14px rgba(0,0,0,.08), 0 48px 96px rgba(0,0,0,.22); }
 .f3-badge .elementor-heading-title { display: inline-grid; place-items: center; min-width: 30px; height: 30px; padding: 0 6px; border-radius: 6px; background: #000; }
 .f3-badge--light .elementor-heading-title { background: #FFFFFF; }
 
@@ -147,7 +148,7 @@ a:hover > .f3-roll .f3-roll__ch, a:focus-visible > .f3-roll .f3-roll__ch, .eleme
 .f3-hero { overflow: hidden; }
 .f3-hero-deck { position: relative; z-index: 2 !important; }
 .f3-hero-title { position: relative; z-index: 1; }
-.f3-hero-card { will-change: transform; cursor: default; }
+.f3-hero-card { will-change: transform; cursor: pointer; -webkit-tap-highlight-color: transparent; }
 @keyframes f3DeckIn { from { translate: 0 75vh; rotate: var(--r, 12deg); } }
 .f3-hero-intro .f3-hero-card { animation: f3DeckIn 1.5s var(--f3-ease) both; }
 .f3-hero-intro .f3-hero-card:nth-child(1) { animation-delay: .37s; --r: -14deg; }
