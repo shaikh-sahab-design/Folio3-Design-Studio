@@ -145,7 +145,7 @@ a:hover > .f3-roll .f3-roll__ch, a:focus-visible > .f3-roll .f3-roll__ch, .eleme
 
 /* Hero deck */
 .f3-hero { overflow: hidden; }
-.f3-hero-deck { position: relative; z-index: 2; }
+.f3-hero-deck { position: relative; z-index: 2 !important; }
 .f3-hero-title { position: relative; z-index: 1; }
 .f3-hero-card { will-change: transform; cursor: default; }
 @keyframes f3DeckIn { from { translate: 0 75vh; rotate: var(--r, 12deg); } }

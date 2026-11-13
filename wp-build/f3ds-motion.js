@@ -168,7 +168,7 @@
         var cx = dk.x + deck.offsetWidth / 2, cy = t.y + htitle.offsetHeight * 0.36;
         pos = cards.map(function (c, i) {
           var o = off(c, hero), f = FAN[i % 4];
-          return { x: cx + f.x * c.offsetWidth * 1.9 - (o.x + c.offsetWidth / 2), y: cy + f.y * c.offsetHeight - (o.y + c.offsetHeight / 2), r: f.r };
+          return { x: cx + f.x * c.offsetWidth * 1.15 - (o.x + c.offsetWidth / 2), y: cy + f.y * c.offsetHeight - (o.y + c.offsetHeight / 2), r: f.r };
         });
         lift = Math.max(0, hero.offsetHeight - w.innerHeight + 8);
       };
@@ -177,7 +177,7 @@
         trigger: hero, start: 'top top', end: '+=110%', pin: true, pinSpacing: true, scrub: 0.6, invalidateOnRefresh: true, onRefreshInit: measure } });
       cards.forEach(function (c, i) {
         c.style.zIndex = String(10 - i);
-        tl.fromTo(c, { x: function () { return pos[i].x; }, y: function () { return pos[i].y; }, rotation: function () { return pos[i].r; }, scale: 1.12 },
+        tl.fromTo(c, { x: function () { return pos[i].x; }, y: function () { return pos[i].y; }, rotation: function () { return pos[i].r; }, scale: 1.18 },
           { x: 0, y: 0, rotation: 0, scale: 1 }, 0.15);
       });
       tl.fromTo([htitle, deck], { y: 0 }, { y: function () { return -lift; }, ease: 'none', duration: 1.15 }, 0);
