@@ -208,7 +208,7 @@ function f3_icon_box( $icon, $title, $desc, $o = [] ) {
 		'hover_animation' => $o['hover'] ?? '',
 	] + f3_type( 'title_typography', $o['title_sizes'] ?? [ 22, 20, 20 ], '700', 1.2, -0.02 )
 	  + f3_type( 'description_typography', [ 15, 15, 15 ], '400', 1.55 );
-	if ( 'none' === ( $o['icon'] ?? '' ) || '' === $icon ) { unset( $s['selected_icon'] ); }
+	if ( 'none' === ( $o['icon'] ?? '' ) || '' === $icon ) { $s['selected_icon'] = [ 'value' => '', 'library' => '' ]; $s['view'] = 'default'; }
 	if ( isset( $o['link'] ) ) { $s['link'] = [ 'url' => $o['link'] ]; }
 	if ( isset( $o['anim'] ) ) { $s['_animation'] = $o['anim']; $s['_animation_delay'] = $o['delay'] ?? 0; }
 	$s['_css_classes'] = 'f3-iconbox ' . ( $o['class'] ?? '' );

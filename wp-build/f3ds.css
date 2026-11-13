@@ -103,3 +103,13 @@ body { -webkit-font-smoothing: antialiased; }
   .f3-ticker__text .elementor-heading-title { animation: none; }
   .f3-card, .f3-hero-card, .f3-workcard .f3-cover img { transition: none; }
 }
+
+/* Softer entrance motion than Elementor's default full-height slide */
+@keyframes f3FadeUp { from { opacity: 0; transform: translate3d(0, 36px, 0); } to { opacity: 1; transform: none; } }
+@keyframes f3FadeLeft { from { opacity: 0; transform: translate3d(-36px, 0, 0); } to { opacity: 1; transform: none; } }
+.elementor-element.animated.fadeInUp { animation-name: f3FadeUp; animation-duration: .9s; animation-timing-function: var(--f3-ease); }
+.elementor-element.animated.fadeInLeft { animation-name: f3FadeLeft; animation-duration: .9s; animation-timing-function: var(--f3-ease); }
+
+/* Keep nav labels and buttons on one line */
+.f3-nav .elementor-heading-title, .f3-header .elementor-button { white-space: nowrap; }
+.f3-iconbox .elementor-icon-box-icon:empty { display: none; }
